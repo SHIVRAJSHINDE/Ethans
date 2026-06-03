@@ -1,0 +1,31 @@
+Row ID,Order ID,Order Date,Customer Name,Segment,Region,State,Product ID,Sales,Quantity,Profit
+1,CA-2017-1001,01-01-2017,John Smith,Consumer,East,New York,OFF-LA-4658,25.5,2,5.2
+2,CA-2017-1002,02-01-2017,Emma Brown,Corporate,West,California,FUR-FU-6238,120,1,22
+3,CA-2017-1003,03-01-2017,David Lee,Home Office,Central,Texas,FUR-BO-4845,340,4,65
+4,CA-2017-1004,04-01-2017,Sophia White,Consumer,South,Florida,OFF-BI-3720,89.99,3,15.5
+5,CA-2017-1005,05-01-2017,Michael Scott,Corporate,East,New Jersey,OFF-AR-5905,45,5,10.2
+6,CA-2017-1006,06-01-2017,Olivia Green,Consumer,West,Washington,OFF-EN-4446,15.75,2,3
+7,CA-2017-1007,07-01-2017,Daniel Young,Consumer,Central,Illinois,TEC-PH-7788,599.99,1,120
+8,CA-2017-1008,08-01-2017,Ava Taylor,Home Office,South,Georgia,FUR-CH-2221,180.5,2,40
+9,CA-2017-1009,09-01-2017,William Hall,Corporate,West,California,OFF-ST-9912,75,6,12
+10,CA-2017-1010,10-01-2017,Isabella Allen,Consumer,East,Pennsylvania,TEC-AC-8821,45.99,3,8.5
+11,CA-2017-1011,11-01-2017,James King,Corporate,South,Texas,OFF-PA-1122,210,7,45
+12,CA-2017-1012,12-01-2017,Mia Wright,Consumer,West,Oregon,FUR-TA-9911,450,1,90
+13,CA-2017-1013,13-01-2017,Benjamin Scott,Home Office,Central,Ohio,TEC-LA-7781,799,2,150
+14,CA-2017-1014,14-01-2017,Charlotte Baker,Consumer,East,Virginia,OFF-SU-5551,35,4,7
+15,CA-2017-1015,15-01-2017,Lucas Adams,Corporate,West,Arizona,FUR-FU-6238,220,2,50
+16,CA-2017-1016,16-01-2017,Evelyn Nelson,Consumer,South,North Carolina,OFF-LA-4658,18,1,4
+17,CA-2017-1017,17-01-2017,Henry Carter,Home Office,Central,Michigan,TEC-PH-7788,699,1,140
+18,CA-2017-1018,18-01-2017,Abigail Perez,Corporate,East,Massachusetts,OFF-EN-4446,22.5,3,5
+19,CA-2017-1019,19-01-2017,Alexander Roberts,Consumer,South,Tennessee,FUR-CH-2221,320,4,70
+20,CA-2017-1020,20-01-2017,Emily Turner,Corporate,West,Nevada,TEC-AC-8821,85.99,5,20
+21,CA-2017-1021,21-01-2017,Matthew Phillips,Consumer,East,New York,OFF-BI-3720,60,2,10
+22,CA-2017-1022,22-01-2017,Harper Campbell,Home Office,South,Alabama,OFF-AR-5905,55,5,12
+23,CA-2017-1023,23-01-2017,Ethan Parker,Corporate,Central,Missouri,FUR-BO-4845,500,3,110
+24,CA-2017-1024,24-01-2017,Amelia Evans,Consumer,West,Colorado,OFF-ST-9912,95,8,18
+25,CA-2017-1025,25-01-2017,Jacob Edwards,Corporate,East,Connecticut,TEC-LA-7781,999,1,200
+26,CA-2017-1026,26-01-2017,Elizabeth Collins,Consumer,South,Louisiana,FUR-TA-9911,620,2,130
+27,CA-2017-1027,27-01-2017,Logan Stewart,Home Office,Central,Kansas,OFF-PA-1122,180,6,35
+28,CA-2017-1028,28-01-2017,Ella Sanchez,Consumer,West,Utah,OFF-SU-5551,40,5,8
+29,CA-2017-1029,29-01-2017,Jackson Morris,Corporate,East,Maryland,TEC-PH-7788,899.99,2,180
+30,CA-2017-1030,30-01-2017,Avery Rogers,Consumer,South,Florida,OFF-LA-4658,28,2,6

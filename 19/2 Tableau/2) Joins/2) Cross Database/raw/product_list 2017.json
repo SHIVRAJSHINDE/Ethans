@@ -1,0 +1,86 @@
+[
+    {
+        "Product ID": "OFF-LA-4658",
+        "Category": "Office Supplies",
+        "Sub-Category": "Labels",
+        "Product Name": "Hon File Folders"
+    },
+    {
+        "Product ID": "FUR-FU-6238",
+        "Category": "Furniture",
+        "Sub-Category": "Furnishings",
+        "Product Name": "Tenex Clock"
+    },
+    {
+        "Product ID": "FUR-BO-4845",
+        "Category": "Furniture",
+        "Sub-Category": "Bookcases",
+        "Product Name": "Ikea 3-Shelf Bookcase"
+    },
+    {
+        "Product ID": "OFF-BI-3720",
+        "Category": "Office Supplies",
+        "Sub-Category": "Binders",
+        "Product Name": "Cardinal Binder"
+    },
+    {
+        "Product ID": "OFF-AR-5905",
+        "Category": "Office Supplies",
+        "Sub-Category": "Art",
+        "Product Name": "Sanford Canvas Art Set"
+    },
+    {
+        "Product ID": "OFF-EN-4446",
+        "Category": "Office Supplies",
+        "Sub-Category": "Envelopes",
+        "Product Name": "GlobeWeis Mail Envelopes"
+    },
+    {
+        "Product ID": "TEC-PH-7788",
+        "Category": "Technology",
+        "Sub-Category": "Phones",
+        "Product Name": "Apple iPhone"
+    },
+    {
+        "Product ID": "FUR-CH-2221",
+        "Category": "Furniture",
+        "Sub-Category": "Chairs",
+        "Product Name": "Ergonomic Office Chair"
+    },
+    {
+        "Product ID": "OFF-ST-9912",
+        "Category": "Office Supplies",
+        "Sub-Category": "Storage",
+        "Product Name": "Plastic Storage Box"
+    },
+    {
+        "Product ID": "TEC-AC-8821",
+        "Category": "Technology",
+        "Sub-Category": "Accessories",
+        "Product Name": "Wireless Mouse"
+    },
+    {
+        "Product ID": "OFF-PA-1122",
+        "Category": "Office Supplies",
+        "Sub-Category": "Paper",
+        "Product Name": "Premium Copy Paper"
+    },
+    {
+        "Product ID": "FUR-TA-9911",
+        "Category": "Furniture",
+        "Sub-Category": "Tables",
+        "Product Name": "Conference Table"
+    },
+    {
+        "Product ID": "TEC-LA-7781",
+        "Category": "Technology",
+        "Sub-Category": "Laptops",
+        "Product Name": "Dell Inspiron Laptop"
+    },
+    {
+        "Product ID": "OFF-SU-5551",
+        "Category": "Office Supplies",
+        "Sub-Category": "Supplies",
+        "Product Name": "Stapler Set"
+    }
+]

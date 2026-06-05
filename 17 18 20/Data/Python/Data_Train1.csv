@@ -1,0 +1,9 @@
+First_name,Last_name,Age,City,Airline,Date_of_Journey,Dep_Time,Airfare,Full Name
+Rajesh,Kumar,42,BANGALURU,,24-03-2019,22:20,8715.1,Ram-Kumar
+Ram,Kumar,42,BANGALURU,IndiGo,24-03-2019,22:20,8715.1,Ram-Kumar
+Mohan,Sharma,52,CHENNAI,Air India,01-05-2019,05:50,0,Mohan-Sharma
+Tina,Ali,36,Pune,Jet Airways,09-06-2019,09:25,6995.55,Tina-Ali
+Jeetu,Gandhi,,Delhi,IndiGo,12-05-2019,18:05,7840.56,Jeetu-Gandhi
+Meera,Kumari,,LUCKNOW,IndiGo,01-03-2019,16:50,7813.89,Meera-Kumari
+Jeetu,Gandhi,,Delhi,IndiGo,12-05-2019,18:05,7840.56,Jeetu-Gandhi
+Meera,Kumari,,LUCKNOW,IndiGo,01-03-2019,16:50,7813.89,Meera-Kumari

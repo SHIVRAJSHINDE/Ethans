@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Data (Live Vs Extract)' inline='true' name='federated.0g2emuy1oso8tl15n9ixp1tzni6c' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Live Vs Extract' name='excel-direct.0dqk9bm04kph2x1aj64qy0nxhuyf'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/SHIVRAJ SHINDE/Documents/My Tableau Repository/Datasources/2024.1/en_US-US/Live Vs Extract/Live Vs Extract.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0dqk9bm04kph2x1aj64qy0nxhuyf' name='Data' table='[Data$]' type='table'>
+          <columns gridOrigin='A1:E14:no:A1:E14:0' header='yes' outcome='2'>
+            <column datatype='string' name='EmpID' ordinal='0' />
+            <column datatype='string' name='Name1' ordinal='1' />
+            <column datatype='string' name='Dept' ordinal='2' />
+            <column datatype='string' name='Region' ordinal='3' />
+            <column datatype='integer' name='Salary' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E14:no:A1:E14:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmpID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EmpID]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>EmpID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_4E993B4F09E84F9385C8F04942D1CF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name1]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Name1</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_4E993B4F09E84F9385C8F04942D1CF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dept</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Dept]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Dept</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_4E993B4F09E84F9385C8F04942D1CF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Data_4E993B4F09E84F9385C8F04942D1CF6A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Salary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Salary]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Salary</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Data_4E993B4F09E84F9385C8F04942D1CF6A]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Emp ID' datatype='string' name='[EmpID]' role='dimension' type='nominal' />
+      <column caption='Data' datatype='table' name='[__tableau_internal_object_id__].[Data_4E993B4F09E84F9385C8F04942D1CF6A]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/SHIVRA~1/AppData/Local/Temp/TableauTemp/#TableauTemp_07xd1dc0281e9s165qhji06i4jx7.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/06/2026 08:02:47 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>EmpID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[EmpID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmpID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Data_4E993B4F09E84F9385C8F04942D1CF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Name1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Name1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Name1</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Data_4E993B4F09E84F9385C8F04942D1CF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Dept</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Dept]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Dept</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Data_4E993B4F09E84F9385C8F04942D1CF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Region</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Data</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Data_4E993B4F09E84F9385C8F04942D1CF6A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Salary</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Salary]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Salary</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Data</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Data_4E993B4F09E84F9385C8F04942D1CF6A]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Data' id='Data_4E993B4F09E84F9385C8F04942D1CF6A'>
+            <properties context=''>
+              <relation connection='excel-direct.0dqk9bm04kph2x1aj64qy0nxhuyf' name='Data' table='[Data$]' type='table'>
+                <columns gridOrigin='A1:E14:no:A1:E14:0' header='yes' outcome='2'>
+                  <column datatype='string' name='EmpID' ordinal='0' />
+                  <column datatype='string' name='Name1' ordinal='1' />
+                  <column datatype='string' name='Dept' ordinal='2' />
+                  <column datatype='string' name='Region' ordinal='3' />
+                  <column datatype='integer' name='Salary' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{909302FF-97E6-4448-8F96-BD78511E8C67}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{93E8BE08-48DF-40D4-A52D-CAA5719CC10C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

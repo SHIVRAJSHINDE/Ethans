@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='LeftTable+ (JoinTable)' inline='true' name='federated.03keecw1iylhaw1ay4zvl1mq6zni' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='JoinTable' name='excel-direct.1ljxu0x0b6yc6y0zrvbhg17bofyn'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='E:/Study/Eathans/2 Tableau/2) Joins/1) Simple Joins/JoinTable.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation join='full' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[LeftTable].[dept_id]' />
+              <expression op='[RightTable].[dept_id]' />
+            </expression>
+          </clause>
+          <relation connection='excel-direct.1ljxu0x0b6yc6y0zrvbhg17bofyn' name='LeftTable' table='[LeftTable$]' type='table'>
+            <columns gridOrigin='A1:C8:no:A1:C8:0' header='yes' outcome='6'>
+              <column datatype='integer' name='emp_id' ordinal='0' />
+              <column datatype='integer' name='dept_id' ordinal='1' />
+              <column datatype='string' name='emp_name' ordinal='2' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.1ljxu0x0b6yc6y0zrvbhg17bofyn' name='RightTable' table='[RightTable$]' type='table'>
+            <columns gridOrigin='A1:B9:no:A1:B9:0' header='yes' outcome='6'>
+              <column datatype='integer' name='dept_id' ordinal='0' />
+              <column datatype='string' name='dept_name' ordinal='1' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[dept_id (RightTable)]' value='[RightTable].[dept_id]' />
+          <map key='[dept_id]' value='[LeftTable].[dept_id]' />
+          <map key='[dept_name]' value='[RightTable].[dept_name]' />
+          <map key='[emp_id]' value='[LeftTable].[emp_id]' />
+          <map key='[emp_name]' value='[LeftTable].[emp_name]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[LeftTable]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C8:no:A1:C8:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[RightTable]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B9:no:A1:B9:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>emp_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[emp_id]</local-name>
+            <parent-name>[LeftTable]</parent-name>
+            <remote-alias>emp_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dept_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dept_id]</local-name>
+            <parent-name>[LeftTable]</parent-name>
+            <remote-alias>dept_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>emp_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[emp_name]</local-name>
+            <parent-name>[LeftTable]</parent-name>
+            <remote-alias>emp_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dept_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dept_id (RightTable)]</local-name>
+            <parent-name>[RightTable]</parent-name>
+            <remote-alias>dept_id</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dept_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[dept_name]</local-name>
+            <parent-name>[RightTable]</parent-name>
+            <remote-alias>dept_name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='LeftTable' datatype='table' name='[__tableau_internal_object_id__].[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]' role='measure' type='quantitative' />
+      <column caption='dept id (RightTable)' datatype='integer' name='[dept_id (RightTable)]' role='dimension' type='ordinal' />
+      <column caption='Dept Id' datatype='integer' name='[dept_id]' role='dimension' type='ordinal' />
+      <column caption='Dept Name' datatype='string' name='[dept_name]' role='dimension' type='nominal' />
+      <column caption='Emp Id' datatype='integer' name='[emp_id]' role='dimension' type='ordinal' />
+      <column caption='Emp Name' datatype='string' name='[emp_name]' role='dimension' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/SHIVRA~1/AppData/Local/Temp/TableauTemp/#TableauTemp_18a2zl10aus2ag0zkcanp03eo6tg.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/21/2026 03:19:34 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <cols>
+            <map key='[dept_id (RightTable)]' value='[Extract].[dept_id]' />
+            <map key='[dept_id]' value='[Extract].[dept_id1]' />
+            <map key='[dept_name]' value='[Extract].[dept_name]' />
+            <map key='[emp_id]' value='[Extract].[emp_id]' />
+            <map key='[emp_name]' value='[Extract].[emp_name]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>emp_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[emp_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>emp_id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>LeftTable</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dept_id1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[dept_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dept_id1</remote-alias>
+              <ordinal>1</ordinal>
+              <family>LeftTable</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>emp_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[emp_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>emp_name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>LeftTable</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dept_id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[dept_id (RightTable)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dept_id</remote-alias>
+              <ordinal>3</ordinal>
+              <family>RightTable</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dept_name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dept_name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dept_name</remote-alias>
+              <ordinal>4</ordinal>
+              <family>RightTable</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[LeftTable_4C67D5772FC949358973BF3EA5A0CF5F]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='LeftTable' id='LeftTable_4C67D5772FC949358973BF3EA5A0CF5F'>
+            <properties context=''>
+              <relation join='full' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[LeftTable].[dept_id]' />
+                    <expression op='[RightTable].[dept_id]' />
+                  </expression>
+                </clause>
+                <relation connection='excel-direct.1ljxu0x0b6yc6y0zrvbhg17bofyn' name='LeftTable' table='[LeftTable$]' type='table'>
+                  <columns gridOrigin='A1:C8:no:A1:C8:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='emp_id' ordinal='0' />
+                    <column datatype='integer' name='dept_id' ordinal='1' />
+                    <column datatype='string' name='emp_name' ordinal='2' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.1ljxu0x0b6yc6y0zrvbhg17bofyn' name='RightTable' table='[RightTable$]' type='table'>
+                  <columns gridOrigin='A1:B9:no:A1:B9:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='dept_id' ordinal='0' />
+                    <column datatype='string' name='dept_name' ordinal='1' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{E9C10B65-6DB3-41A1-912D-E2643FFCBABB}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A8B061B4-79BA-4DB3-BCD0-6E884C291CB6}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

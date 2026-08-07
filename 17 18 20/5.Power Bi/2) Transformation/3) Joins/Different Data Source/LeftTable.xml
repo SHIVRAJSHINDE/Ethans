@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <emp_id>1</emp_id>
+        <dept_id>101</dept_id>
+        <emp_name>John</emp_name>
+    </employee>
+    <employee>
+        <emp_id>2</emp_id>
+        <dept_id>102</dept_id>
+        <emp_name>Mary</emp_name>
+    </employee>
+    <employee>
+        <emp_id>3</emp_id>
+        <dept_id>103</dept_id>
+        <emp_name>Alex</emp_name>
+    </employee>
+    <employee>
+        <emp_id>7</emp_id>
+        <dept_id>107</dept_id>
+        <emp_name>Chris</emp_name>
+    </employee>
+    <employee>
+        <emp_id>8</emp_id>
+        <dept_id>108</dept_id>
+        <emp_name>Sophia</emp_name>
+    </employee>
+    <employee>
+        <emp_id>9</emp_id>
+        <dept_id>109</dept_id>
+        <emp_name>Daniel</emp_name>
+    </employee>
+    <employee>
+        <emp_id>10</emp_id>
+        <dept_id>110</dept_id>
+        <emp_name>Olivia</emp_name>
+    </employee>
+</employees>

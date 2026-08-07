@@ -1,0 +1,34 @@
+[
+  {
+    "dept_id": 101,
+    "dept_name": "HR"
+  },
+  {
+    "dept_id": 102,
+    "dept_name": "Finance"
+  },
+  {
+    "dept_id": 103,
+    "dept_name": "IT"
+  },
+  {
+    "dept_id": 108,
+    "dept_name": "Admin"
+  },
+  {
+    "dept_id": 111,
+    "dept_name": "Legal"
+  },
+  {
+    "dept_id": 112,
+    "dept_name": "Support"
+  },
+  {
+    "dept_id": 113,
+    "dept_name": "Operations"
+  },
+  {
+    "dept_id": 114,
+    "dept_name": "Security"
+  }
+]

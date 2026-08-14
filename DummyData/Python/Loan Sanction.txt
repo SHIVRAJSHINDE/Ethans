@@ -1,0 +1,201 @@
+ID,Age,Income,Credit_Score,Loan_Amount,Employment_Years,Existing_Loans,Education,Employment_Stability,Credit_Risk,Gender,Employment_Type,Marital_Status,Property_Ownership,Loan_Sanctioned
+1,24,28000,580,150000,1,2,High School,Low,High,Male,Salaried,Single,Rented,0
+2,35,55000,720,300000,8,0,Graduate,High,Low,Female,Salaried,Married,Owned,1
+3,42,68000,745,450000,14,1,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+4,29,40000,635,280000,4,2,Graduate,Medium,High,Female,Self-employed,Single,Rented,0
+5,51,90000,790,600000,22,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+6,38,62000,705,350000,10,1,Graduate,High,Low,Female,Salaried,Married,Owned,1
+7,23,26000,560,120000,1,2,High School,Low,High,Male,Salaried,Single,Rented,0
+8,45,75000,760,500000,16,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+9,31,45000,650,300000,5,2,Graduate,Medium,Medium,Male,Self-employed,Single,Rented,0
+10,48,85000,800,650000,20,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+11,27,35000,610,200000,2,1,Graduate,Low,High,Female,Salaried,Single,Rented,0
+12,36,58000,715,320000,9,1,Graduate,High,Low,Male,Salaried,Married,Owned,1
+13,43,64000,690,420000,13,2,Postgraduate,Medium,Medium,Female,Self-employed,Married,Family,0
+14,30,48000,675,270000,6,0,Graduate,High,Medium,Male,Salaried,Single,Owned,1
+15,55,100000,815,700000,26,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+16,26,32000,595,180000,2,2,High School,Low,High,Male,Salaried,Single,Rented,0
+17,39,67000,730,400000,11,1,Graduate,High,Low,Female,Salaried,Married,Owned,1
+18,47,78000,755,520000,18,1,Postgraduate,High,Low,Male,Self-employed,Married,Owned,1
+19,33,43000,620,300000,7,2,Graduate,Medium,High,Female,Salaried,Single,Rented,0
+20,41,70000,720,430000,14,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+21,28,39000,630,240000,4,1,Graduate,Medium,Medium,Female,Salaried,Single,Rented,0
+22,50,88000,775,580000,21,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+23,34,52000,685,310000,8,1,Graduate,High,Medium,Female,Salaried,Married,Family,1
+24,25,30000,575,160000,1,2,High School,Low,High,Male,Self-employed,Single,Rented,0
+25,44,73000,765,460000,16,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+26,32,47000,645,290000,6,2,Graduate,Medium,Medium,Male,Self-employed,Single,Rented,0
+27,58,110000,825,750000,30,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+28,37,60000,710,350000,11,1,Graduate,High,Low,Female,Salaried,Married,Owned,1
+29,29,41000,615,260000,5,1,Graduate,Medium,High,Male,Salaried,Single,Rented,0
+30,46,72000,735,410000,18,1,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+31,40,58000,670,390000,12,2,Graduate,Medium,Medium,Male,Self-employed,Married,Family,0
+32,53,92000,795,620000,24,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+33,27,33000,605,190000,2,1,High School,Low,High,Male,Salaried,Single,Rented,0
+34,34,56000,718,330000,9,0,Graduate,High,Low,Female,Salaried,Married,Owned,1
+35,49,80000,750,480000,20,1,Postgraduate,High,Low,Male,Self-employed,Married,Owned,1
+36,31,45000,640,270000,5,2,Graduate,Medium,High,Female,Salaried,Single,Rented,0
+37,43,67000,725,390000,14,1,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+38,22,25000,550,130000,1,2,High School,Low,High,Female,Salaried,Single,Rented,0
+39,52,95000,805,680000,23,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+40,36,54000,695,300000,8,1,Graduate,High,Medium,Female,Salaried,Married,Family,1
+41,28,37000,615,210000,3,2,Graduate,Low,High,Male,Self-employed,Single,Rented,0
+42,45,71000,748,440000,17,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+43,33,50000,660,280000,7,1,Graduate,Medium,Medium,Male,Salaried,Single,Family,1
+44,57,102000,820,720000,29,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+45,30,42000,625,250000,4,2,Graduate,Low,High,Male,Self-employed,Single,Rented,0
+46,39,65000,712,370000,11,1,Graduate,High,Low,Female,Salaried,Married,Owned,1
+47,26,31000,590,180000,2,1,High School,Low,High,Male,Salaried,Single,Rented,0
+48,48,83000,765,520000,21,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+49,35,57000,680,340000,9,2,Graduate,Medium,Medium,Male,Self-employed,Married,Family,0
+50,41,66000,735,400000,13,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+51,29,44000,645,260000,5,1,Graduate,Medium,Medium,Male,Salaried,Single,Rented,0
+52,54,91000,795,620000,26,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+53,37,61000,705,360000,10,1,Graduate,High,Low,Male,Salaried,Married,Owned,1
+54,25,29000,575,160000,1,2,High School,Low,High,Female,Salaried,Single,Rented,0
+55,46,76000,755,470000,18,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+56,32,48000,652,300000,6,2,Graduate,Medium,Medium,Female,Self-employed,Single,Rented,0
+57,43,69000,720,420000,15,1,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+58,38,56000,675,330000,9,1,Graduate,Medium,Medium,Female,Salaried,Married,Family,1
+59,23,27000,585,130000,1,2,High School,Low,High,Male,Salaried,Single,Rented,0
+60,50,87000,785,580000,22,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+61,34,51000,665,290000,7,1,Graduate,Medium,Medium,Male,Salaried,Married,Family,1
+62,42,74000,745,440000,14,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+63,31,40000,610,240000,5,2,Graduate,Low,High,Male,Self-employed,Single,Rented,0
+64,56,98000,810,680000,27,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+65,27,36000,620,210000,3,1,High School,Low,High,Male,Salaried,Single,Rented,0
+66,40,63000,700,350000,12,1,Graduate,High,Low,Female,Salaried,Married,Owned,1
+67,35,55000,690,320000,8,2,Graduate,Medium,Medium,Male,Self-employed,Married,Family,0
+68,49,82000,770,510000,20,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+69,28,41000,630,270000,4,2,Graduate,Low,High,Male,Salaried,Single,Rented,0
+70,44,68000,730,390000,16,1,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+71,52,94000,795,640000,24,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+72,30,46000,655,280000,6,1,Graduate,Medium,Medium,Female,Salaried,Single,Family,0
+73,37,59000,710,340000,10,0,Graduate,High,Low,Male,Salaried,Married,Owned,1
+74,25,32000,600,190000,2,2,High School,Low,High,Female,Self-employed,Single,Rented,0
+75,47,77000,760,480000,19,1,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+76,33,51000,675,300000,7,1,Graduate,Medium,Medium,Female,Salaried,Married,Family,1
+77,41,65000,715,400000,13,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+78,29,43000,640,250000,5,2,Graduate,Low,High,Female,Self-employed,Single,Rented,0
+79,55,100000,820,720000,28,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+80,36,58000,695,330000,9,1,Graduate,High,Medium,Female,Salaried,Married,Family,1
+81,24,28000,570,150000,1,2,High School,Low,High,Male,Salaried,Single,Rented,0
+82,48,85000,775,550000,21,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+83,39,63000,705,380000,11,1,Graduate,High,Low,Male,Salaried,Married,Owned,1
+84,31,47000,635,290000,6,2,Graduate,Medium,High,Female,Self-employed,Single,Rented,0
+85,45,74000,750,450000,17,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+86,26,34000,610,200000,2,1,High School,Low,High,Female,Salaried,Single,Rented,0
+87,53,89000,800,600000,25,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+88,34,55000,685,310000,8,1,Graduate,High,Medium,Female,Salaried,Married,Family,1
+89,42,67000,720,410000,14,1,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+90,28,40000,625,260000,4,2,Graduate,Low,High,Female,Self-employed,Single,Rented,0
+91,50,91000,790,650000,23,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+92,37,56000,680,340000,10,1,Graduate,Medium,Medium,Female,Salaried,Married,Family,1
+93,32,45000,645,270000,6,2,Graduate,Low,High,Male,Salaried,Single,Rented,0
+94,46,70000,740,430000,18,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+95,29,38000,605,220000,3,1,High School,Low,High,Male,Self-employed,Single,Rented,0
+96,43,76000,765,480000,15,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+97,35,52000,670,300000,8,2,Graduate,Medium,Medium,Male,Salaried,Married,Family,0
+98,51,87000,785,590000,22,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+99,27,35000,615,190000,2,1,High School,Low,High,Male,Salaried,Single,Rented,0
+100,40,61000,710,370000,12,1,Graduate,High,Low,Female,Salaried,Married,Owned,1
+101,33,49000,650,280000,7,2,Graduate,Medium,High,Male,Self-employed,Single,Rented,0
+102,57,102000,815,720000,29,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+103,38,59000,700,350000,10,1,Graduate,High,Low,Male,Salaried,Married,Owned,1
+104,25,30000,580,160000,1,2,High School,Low,High,Female,Salaried,Single,Rented,0
+105,44,72000,745,420000,16,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+106,31,46000,635,270000,5,1,Graduate,Medium,High,Female,Self-employed,Single,Rented,0
+107,49,84000,775,530000,21,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+108,36,57000,690,320000,9,2,Graduate,Medium,Medium,Female,Salaried,Married,Family,0
+109,42,68000,725,400000,13,1,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+110,23,29000,590,140000,1,2,High School,Low,High,Female,Salaried,Single,Rented,0
+111,54,95000,800,650000,26,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+112,28,37000,620,210000,3,1,High School,Low,High,Female,Salaried,Single,Rented,0
+113,39,65000,715,380000,11,0,Graduate,High,Low,Male,Salaried,Married,Owned,1
+114,47,78000,755,490000,18,1,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+115,34,44000,645,280000,7,2,Graduate,Medium,High,Male,Self-employed,Single,Rented,0
+116,41,70000,735,430000,14,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+117,26,33000,600,180000,2,2,High School,Low,High,Male,Salaried,Single,Rented,0
+118,52,92000,790,610000,24,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+119,30,48000,660,290000,5,1,Graduate,Medium,Medium,Male,Salaried,Single,Family,1
+120,45,73000,750,450000,17,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+121,37,60000,695,350000,10,1,Graduate,High,Medium,Male,Salaried,Married,Family,1
+122,29,41000,625,240000,4,2,Graduate,Low,High,Female,Self-employed,Single,Rented,0
+123,50,88000,780,570000,22,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+124,32,50000,655,300000,6,2,Graduate,Medium,Medium,Female,Salaried,Single,Rented,0
+125,43,69000,720,390000,15,1,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+126,24,27000,570,130000,1,2,High School,Low,High,Female,Salaried,Single,Rented,0
+127,48,81000,765,520000,20,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+128,35,53000,680,310000,8,1,Graduate,Medium,Medium,Female,Salaried,Married,Family,1
+129,40,64000,705,370000,12,2,Graduate,Medium,Medium,Male,Self-employed,Married,Family,0
+130,55,98000,810,690000,27,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+131,27,36000,610,200000,3,1,High School,Low,High,Male,Salaried,Single,Rented,0
+132,46,76000,755,460000,18,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+133,33,47000,640,270000,6,2,Graduate,Low,High,Male,Self-employed,Single,Rented,0
+134,51,90000,795,620000,23,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+135,38,58000,690,330000,9,1,Graduate,High,Medium,Male,Salaried,Married,Family,1
+136,29,39000,615,230000,4,2,Graduate,Low,High,Female,Salaried,Single,Rented,0
+137,42,71000,740,410000,14,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+138,34,54000,670,300000,7,1,Graduate,Medium,Medium,Female,Salaried,Married,Family,1
+139,25,31000,590,170000,2,2,High School,Low,High,Male,Self-employed,Single,Rented,0
+140,49,83000,775,540000,21,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+141,36,56000,685,320000,9,1,Graduate,High,Medium,Male,Salaried,Married,Family,1
+142,44,68000,725,400000,16,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+143,31,43000,630,250000,5,2,Graduate,Low,High,Male,Self-employed,Single,Rented,0
+144,53,96000,805,670000,25,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+145,28,35000,605,190000,3,1,High School,Low,High,Male,Salaried,Single,Rented,0
+146,47,79000,760,500000,19,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+147,39,62000,700,360000,11,1,Graduate,High,Low,Male,Salaried,Married,Owned,1
+148,23,26000,560,120000,1,2,High School,Low,High,Female,Salaried,Single,Rented,0
+149,50,87000,785,580000,22,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+150,32,49000,650,280000,6,2,Graduate,Medium,High,Female,Self-employed,Single,Rented,0
+151,41,66000,715,390000,13,1,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+152,35,55000,675,310000,8,1,Graduate,Medium,Medium,Female,Salaried,Married,Family,1
+153,26,30000,595,170000,2,2,High School,Low,High,Male,Salaried,Single,Rented,0
+154,45,75000,755,460000,17,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+155,30,42000,620,240000,4,2,Graduate,Low,High,Male,Self-employed,Single,Rented,0
+156,54,93000,800,640000,26,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+157,37,59000,690,340000,10,1,Graduate,High,Medium,Male,Salaried,Married,Family,1
+158,29,45000,640,270000,5,2,Graduate,Low,High,Female,Salaried,Single,Rented,0
+159,43,70000,730,410000,14,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+160,48,82000,770,520000,20,1,Postgraduate,High,Low,Female,Business,Married,Owned,1
+161,24,29000,580,150000,1,2,High School,Low,High,Male,Salaried,Single,Rented,0
+162,52,91000,795,600000,24,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+163,34,51000,660,290000,7,1,Graduate,Medium,Medium,Male,Salaried,Married,Family,1
+164,40,63000,705,360000,12,2,Graduate,Medium,Medium,Female,Self-employed,Married,Family,0
+165,27,34000,600,200000,2,1,High School,Low,High,Male,Salaried,Single,Rented,0
+166,46,74000,750,450000,18,0,Postgraduate,High,Low,Female,Salaried,Married,Owned,1
+167,33,46000,635,260000,6,2,Graduate,Low,High,Male,Self-employed,Single,Rented,0
+168,57,101000,820,710000,30,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+169,38,57000,685,320000,9,1,Graduate,High,Medium,Male,Salaried,Married,Family,1
+170,31,40000,615,230000,5,2,Graduate,Low,High,Female,Salaried,Single,Rented,0
+171,44,71000,735,420000,16,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+172,35,53000,675,300000,8,1,Graduate,Medium,Medium,Female,Salaried,Married,Family,1
+173,50,86000,780,550000,21,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+174,28,37000,610,210000,3,2,High School,Low,High,Female,Self-employed,Single,Rented,0
+175,42,69000,725,400000,14,1,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+176,25,28000,575,140000,1,2,High School,Low,High,Female,Salaried,Single,Rented,0
+177,47,80000,765,500000,19,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+178,36,58000,695,330000,10,1,Graduate,High,Medium,Female,Salaried,Married,Family,1
+179,30,44000,630,260000,5,2,Graduate,Low,High,Male,Self-employed,Single,Rented,0
+180,53,94000,805,650000,25,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+181,39,61000,705,370000,11,1,Graduate,High,Low,Male,Salaried,Married,Owned,1
+182,26,32000,595,180000,2,2,High School,Low,High,Female,Salaried,Single,Rented,0
+183,45,73000,745,430000,17,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+184,34,50000,655,290000,7,1,Graduate,Medium,Medium,Female,Salaried,Married,Family,1
+185,51,89000,790,590000,23,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+186,29,40000,620,250000,4,2,Graduate,Low,High,Female,Self-employed,Single,Rented,0
+187,41,67000,720,390000,13,1,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+188,37,55000,680,310000,9,2,Graduate,Medium,Medium,Female,Self-employed,Married,Family,0
+189,48,84000,775,530000,20,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+190,23,27000,565,130000,1,2,High School,Low,High,Female,Salaried,Single,Rented,0
+191,56,99000,810,680000,28,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+192,32,48000,645,270000,6,2,Graduate,Low,High,Female,Salaried,Single,Rented,0
+193,43,72000,740,420000,15,0,Postgraduate,High,Low,Male,Salaried,Married,Owned,1
+194,35,57000,690,330000,8,1,Graduate,Medium,Medium,Female,Salaried,Married,Family,1
+195,28,36000,605,190000,3,2,High School,Low,High,Male,Self-employed,Single,Rented,0
+196,49,85000,780,560000,21,0,Postgraduate,High,Low,Female,Business,Married,Owned,1
+197,40,65000,710,380000,12,1,Graduate,High,Low,Male,Salaried,Married,Owned,1
+198,31,45000,635,280000,5,2,Graduate,Low,High,Female,Self-employed,Single,Rented,0
+199,52,93000,800,620000,24,0,Postgraduate,High,Low,Male,Business,Married,Owned,1
+200,27,33000,590,170000,2,1,High School,Low,High,Female,Salaried,Single,Rented,0

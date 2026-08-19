@@ -1,0 +1,18 @@
+s1_Transformation
+
+load the data
+split in to X,y
+Train test split
+	Save Train test split in the folder(Data_Train_Test)
+Actual Transformation
+	identify Numerical
+	identify Categorical(OneHot,Ordinal)
+	create object for Transformation
+Save Transform.pkl file to the folder(Trans_File)
+Save Transform Data in to Folder(Data_Trans)
+
+
+
+s2_Model Training
+Load X_train, X_test, X_train_trans,X_test_trans
+Load y_train,y_test,

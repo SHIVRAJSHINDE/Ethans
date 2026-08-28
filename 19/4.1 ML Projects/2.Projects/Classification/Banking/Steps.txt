@@ -14,5 +14,26 @@ Save Transform Data in to Folder(Data_Trans)
 
 
 s2_Model Training
-Load X_train, X_test, X_train_trans,X_test_trans
-Load y_train,y_test,
+	Load X_train, X_test, X_train_trans,X_test_trans
+	Load y_train,y_test,
+	
+	1-Logistic Regression
+		Train the Model
+		Based on the trainemodel generate (y_train_pred,y_test_pred)
+		Evalution
+			Training
+			Testing
+	2-SVC
+		Train the Model
+		Based on the trainemodel generate (y_train_pred,y_test_pred)
+		Evalution
+			Training
+			Testing
+	3-DTC
+		Train the Model using DTC
+		Based on the trainemodel generate (y_train_pred,y_test_pred)
+		Evalution
+			Training
+			Testing
+
+

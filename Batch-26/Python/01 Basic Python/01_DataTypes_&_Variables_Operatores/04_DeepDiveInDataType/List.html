@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python List Manipulation</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 25px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #343a40;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .section {
+            background: #e9ecef;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+            background: #f1f1f1;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Python List Manipulation</h1>
+
+<table>
+
+<tr>
+    <th>Operation / Action</th>
+    <th>Python Code</th>
+    <th>Example</th>
+    <th>Output</th>
+</tr>
+
+<!-- SLICING -->
+
+<tr class="section">
+    <td colspan="4">Slicing / Accessing</td>
+</tr>
+
+<tr>
+    <td>First Item</td>
+    <td><code>myList[0]</code></td>
+    <td><code>["apple","banana","mango"][0]</code></td>
+    <td><code>apple</code></td>
+</tr>
+
+<tr>
+    <td>Last Item</td>
+    <td><code>myList[-1]</code></td>
+    <td><code>["apple","banana","mango"][-1]</code></td>
+    <td><code>mango</code></td>
+</tr>
+
+
+<!-- ADD -->
+
+<tr class="section">
+    <td colspan="4">Add / Insert</td>
+</tr>
+
+<tr>
+    <td>Add Item</td>
+    <td><code>myList.append("banana")</code></td>
+    <td><code>["apple","mango"] → append("banana")</code></td>
+    <td><code>["apple","mango","banana"]</code></td>
+</tr>
+
+<tr>
+    <td>Insert Item</td>
+    <td><code>myList.insert(1,"banana")</code></td>
+    <td><code>["apple","mango"] → insert(1,"banana")</code></td>
+    <td><code>["apple","banana","mango"]</code></td>
+</tr>
+
+<tr>
+    <td>Add Multiple Items</td>
+    <td><code>myList.extend(list2)</code></td>
+    <td><code>[1,2] + [3,4]</code></td>
+    <td><code>[1,2,3,4]</code></td>
+</tr>
+
+
+<!-- REMOVE -->
+
+<tr class="section">
+    <td colspan="4">Remove</td>
+</tr>
+
+<tr>
+    <td>Remove Specified Item</td>
+    <td><code>myList.remove("banana")</code></td>
+    <td><code>["apple","banana","mango"]</code></td>
+    <td><code>["apple","mango"]</code></td>
+</tr>
+
+<tr>
+    <td>Remove by Index</td>
+    <td><code>myList.pop(1)</code></td>
+    <td><code>["apple","banana","mango"]</code></td>
+    <td><code>["apple","mango"]</code></td>
+</tr>
+
+<tr>
+    <td>Delete by Index</td>
+    <td><code>del myList[0]</code></td>
+    <td><code>["apple","banana","mango"]</code></td>
+    <td><code>["banana","mango"]</code></td>
+</tr>
+
+<tr>
+    <td>Remove Last Item</td>
+    <td><code>myList.pop()</code></td>
+    <td><code>["apple","banana","mango"]</code></td>
+    <td><code>["apple","banana"]</code></td>
+</tr>
+
+
+<!-- DELETE -->
+
+<tr class="section">
+    <td colspan="4">Delete / Empty</td>
+</tr>
+
+<tr>
+    <td>Clear All Items</td>
+    <td><code>myList.clear()</code></td>
+    <td><code>["apple","banana"]</code></td>
+    <td><code>[]</code></td>
+</tr>
+
+<tr>
+    <td>Delete Entire List</td>
+    <td><code>del myList</code></td>
+    <td><code>myList = ["apple","banana"]</code></td>
+    <td>List deleted</td>
+</tr>
+
+
+<!-- COPY -->
+
+<tr class="section">
+    <td colspan="4">Copy</td>
+</tr>
+
+<tr>
+    <td>Shallow Copy</td>
+    <td><code>newList = myList.copy()</code></td>
+    <td><code>myList = [1,2,3]</code></td>
+    <td><code>newList = [1,2,3]</code></td>
+</tr>
+
+<tr>
+    <td>Assignment / Reference</td>
+    <td><code>newList = myList</code></td>
+    <td><code>myList = [1,2,3]</code></td>
+    <td>Both refer to same list</td>
+</tr>
+
+
+<!-- JOIN -->
+
+<tr class="section">
+    <td colspan="4">Joining / Merging</td>
+</tr>
+
+<tr>
+    <td>Merge with +</td>
+    <td><code>newList = list1 + list2</code></td>
+    <td><code>[1,2] + [3,4]</code></td>
+    <td><code>[1,2,3,4]</code></td>
+</tr>
+
+<tr>
+    <td>Extend List</td>
+    <td><code>myList.extend(list2)</code></td>
+    <td><code>[1,2].extend([3,4])</code></td>
+    <td><code>[1,2,3,4]</code></td>
+</tr>
+
+
+<!-- SORT -->
+
+<tr class="section">
+    <td colspan="4">Sort</td>
+</tr>
+
+<tr>
+    <td>Sorted Copy</td>
+    <td><code>newList = sorted(myList)</code></td>
+    <td><code>sorted([30,10,20])</code></td>
+    <td><code>[10,20,30]</code></td>
+</tr>
+
+<tr>
+    <td>Sort In Place</td>
+    <td><code>myList.sort()</code></td>
+    <td><code>[30,10,20]</code></td>
+    <td><code>[10,20,30]</code></td>
+</tr>
+
+<tr>
+    <td>Sort Reverse</td>
+    <td><code>myList.sort(reverse=True)</code></td>
+    <td><code>[30,10,20]</code></td>
+    <td><code>[30,20,10]</code></td>
+</tr>
+
+
+<!-- REVERSE -->
+
+<tr class="section">
+    <td colspan="4">Reverse</td>
+</tr>
+
+<tr>
+    <td>Reverse List</td>
+    <td><code>myList.reverse()</code></td>
+    <td><code>[1,2,3]</code></td>
+    <td><code>[3,2,1]</code></td>
+</tr>
+
+<tr>
+    <td>Reverse Using Slicing</td>
+    <td><code>myList[::-1]</code></td>
+    <td><code>[1,2,3][::-1]</code></td>
+    <td><code>[3,2,1]</code></td>
+</tr>
+
+
+<!-- SEARCH -->
+
+<tr class="section">
+    <td colspan="4">Search / Count</td>
+</tr>
+
+<tr>
+    <td>Index of Item</td>
+    <td><code>myList.index("apple")</code></td>
+    <td><code>["mango","apple","banana"]</code></td>
+    <td><code>1</code></td>
+</tr>
+
+<tr>
+    <td>Count Item</td>
+    <td><code>myList.count("apple")</code></td>
+    <td><code>["apple","banana","apple"]</code></td>
+    <td><code>2</code></td>
+</tr>
+
+
+<!-- CONVERT -->
+
+<tr class="section">
+    <td colspan="4">Convert / Length</td>
+</tr>
+
+<tr>
+    <td>Convert to List</td>
+    <td><code>list(iterable)</code></td>
+    <td><code>list("ABC")</code></td>
+    <td><code>["A","B","C"]</code></td>
+</tr>
+
+<tr>
+    <td>Length</td>
+    <td><code>len(myList)</code></td>
+    <td><code>len(["apple","banana","mango"])</code></td>
+    <td><code>3</code></td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>

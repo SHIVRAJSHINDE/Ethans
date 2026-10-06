@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Python Set Manipulation</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 25px;
+        }
+
+        .container {
+            max-width: 1150px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .note {
+            background: #fff3cd;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #343a40;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .section {
+            background: #e9ecef;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+            background: #f1f1f1;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Python Set Manipulation</h1>
+
+<div class="note">
+    <b>Important:</b> Sets are unordered and do not allow duplicate values.
+    Sets do not support indexing or slicing.
+</div>
+
+<table>
+
+<tr>
+    <th>Operation / Action</th>
+    <th>Python Code</th>
+    <th>Example</th>
+    <th>Output</th>
+</tr>
+
+
+<!-- CREATE -->
+
+<tr class="section">
+    <td colspan="4">Create</td>
+</tr>
+
+<tr>
+    <td>Create Set</td>
+    <td><code>mySet = {...}</code></td>
+    <td><code>mySet = {"apple","banana","mango"}</code></td>
+    <td><code>{"apple","banana","mango"}</code></td>
+</tr>
+
+<tr>
+    <td>Create Empty Set</td>
+    <td><code>mySet = set()</code></td>
+    <td><code>mySet = set()</code></td>
+    <td><code>set()</code></td>
+</tr>
+
+<tr>
+    <td>Remove Duplicates</td>
+    <td><code>set(iterable)</code></td>
+    <td><code>set([1,1,2,2,3])</code></td>
+    <td><code>{1,2,3}</code></td>
+</tr>
+
+
+<!-- ACCESS -->
+
+<tr class="section">
+    <td colspan="4">Access / Check</td>
+</tr>
+
+<tr>
+    <td>Check Item</td>
+    <td><code>"apple" in mySet</code></td>
+    <td><code>"apple" in {"apple","banana"}</code></td>
+    <td><code>True</code></td>
+</tr>
+
+<tr>
+    <td>Indexing</td>
+    <td><code>Not Supported</code></td>
+    <td><code>mySet[0]</code></td>
+    <td><code>TypeError</code></td>
+</tr>
+
+<tr>
+    <td>Slicing</td>
+    <td><code>Not Supported</code></td>
+    <td><code>mySet[0:2]</code></td>
+    <td><code>TypeError</code></td>
+</tr>
+
+
+<!-- ADD -->
+
+<tr class="section">
+    <td colspan="4">Add / Insert</td>
+</tr>
+
+<tr>
+    <td>Add Item</td>
+    <td><code>mySet.add("banana")</code></td>
+    <td>
+        <code>
+            mySet = {"apple","mango"}<br>
+            mySet.add("banana")
+        </code>
+    </td>
+    <td><code>{"apple","banana","mango"}</code></td>
+</tr>
+
+<tr>
+    <td>Add Multiple Items</td>
+    <td><code>mySet.update(iterable)</code></td>
+    <td>
+        <code>
+            mySet = {1,2}<br>
+            mySet.update([3,4])
+        </code>
+    </td>
+    <td><code>{1,2,3,4}</code></td>
+</tr>
+
+
+<!-- REMOVE -->
+
+<tr class="section">
+    <td colspan="4">Remove / Delete</td>
+</tr>
+
+<tr>
+    <td>Remove Specified Item</td>
+    <td><code>mySet.remove("banana")</code></td>
+    <td>
+        <code>
+            mySet = {"apple","banana","mango"}<br>
+            mySet.remove("banana")
+        </code>
+    </td>
+    <td><code>{"apple","mango"}</code></td>
+</tr>
+
+<tr>
+    <td>Discard Item</td>
+    <td><code>mySet.discard("banana")</code></td>
+    <td>
+        <code>
+            mySet = {"apple","banana","mango"}<br>
+            mySet.discard("banana")
+        </code>
+    </td>
+    <td><code>{"apple","mango"}</code></td>
+</tr>
+
+<tr>
+    <td>Remove Random Item</td>
+    <td><code>mySet.pop()</code></td>
+    <td>
+        <code>
+            mySet = {"apple","banana","mango"}<br>
+            mySet.pop()
+        </code>
+    </td>
+    <td><code>Removes an arbitrary item</code></td>
+</tr>
+
+<tr>
+    <td>Clear All Items</td>
+    <td><code>mySet.clear()</code></td>
+    <td>
+        <code>
+            mySet = {1,2,3}<br>
+            mySet.clear()
+        </code>
+    </td>
+    <td><code>set()</code></td>
+</tr>
+
+<tr>
+    <td>Delete Entire Set</td>
+    <td><code>del mySet</code></td>
+    <td>
+        <code>
+            mySet = {1,2,3}<br>
+            del mySet
+        </code>
+    </td>
+    <td>Set deleted</td>
+</tr>
+
+
+<!-- UNION -->
+
+<tr class="section">
+    <td colspan="4">Union / Joining</td>
+</tr>
+
+<tr>
+    <td>Union</td>
+    <td><code>set1.union(set2)</code></td>
+    <td><code>{1,2}.union({2,3})</code></td>
+    <td><code>{1,2,3}</code></td>
+</tr>
+
+<tr>
+    <td>Union using |</td>
+    <td><code>set1 | set2</code></td>
+    <td><code>{1,2} | {2,3}</code></td>
+    <td><code>{1,2,3}</code></td>
+</tr>
+
+
+<!-- INTERSECTION -->
+
+<tr class="section">
+    <td colspan="4">Intersection</td>
+</tr>
+
+<tr>
+    <td>Common Items</td>
+    <td><code>set1.intersection(set2)</code></td>
+    <td><code>{1,2,3}.intersection({2,3,4})</code></td>
+    <td><code>{2,3}</code></td>
+</tr>
+
+<tr>
+    <td>Intersection using &</td>
+    <td><code>set1 & set2</code></td>
+    <td><code>{1,2,3} & {2,3,4}</code></td>
+    <td><code>{2,3}</code></td>
+</tr>
+
+
+<!-- DIFFERENCE -->
+
+<tr class="section">
+    <td colspan="4">Difference</td>
+</tr>
+
+<tr>
+    <td>Difference</td>
+    <td><code>set1.difference(set2)</code></td>
+    <td><code>{1,2,3}.difference({2,3,4})</code></td>
+    <td><code>{1}</code></td>
+</tr>
+
+<tr>
+    <td>Difference using -</td>
+    <td><code>set1 - set2</code></td>
+    <td><code>{1,2,3} - {2,3,4}</code></td>
+    <td><code>{1}</code></td>
+</tr>
+
+
+<!-- SYMMETRIC DIFFERENCE -->
+
+<tr class="section">
+    <td colspan="4">Symmetric Difference</td>
+</tr>
+
+<tr>
+    <td>Unique Items from Both Sets</td>
+    <td><code>set1.symmetric_difference(set2)</code></td>
+    <td><code>{1,2,3}.symmetric_difference({2,3,4})</code></td>
+    <td><code>{1,4}</code></td>
+</tr>
+
+<tr>
+    <td>Symmetric Difference using ^</td>
+    <td><code>set1 ^ set2</code></td>
+    <td><code>{1,2,3} ^ {2,3,4}</code></td>
+    <td><code>{1,4}</code></td>
+</tr>
+
+
+<!-- SET RELATION -->
+
+<tr class="section">
+    <td colspan="4">Set Relationship</td>
+</tr>
+
+<tr>
+    <td>Subset</td>
+    <td><code>set1.issubset(set2)</code></td>
+    <td><code>{1,2}.issubset({1,2,3})</code></td>
+    <td><code>True</code></td>
+</tr>
+
+<tr>
+    <td>Superset</td>
+    <td><code>set1.issuperset(set2)</code></td>
+    <td><code>{1,2,3}.issuperset({1,2})</code></td>
+    <td><code>True</code></td>
+</tr>
+
+<tr>
+    <td>Disjoint</td>
+    <td><code>set1.isdisjoint(set2)</code></td>
+    <td><code>{1,2}.isdisjoint({3,4})</code></td>
+    <td><code>True</code></td>
+</tr>
+
+
+<!-- COPY -->
+
+<tr class="section">
+    <td colspan="4">Copy</td>
+</tr>
+
+<tr>
+    <td>Copy Set</td>
+    <td><code>newSet = mySet.copy()</code></td>
+    <td>
+        <code>
+            mySet = {1,2,3}<br>
+            newSet = mySet.copy()
+        </code>
+    </td>
+    <td><code>{1,2,3}</code></td>
+</tr>
+
+<tr>
+    <td>Assignment / Reference</td>
+    <td><code>newSet = mySet</code></td>
+    <td>
+        <code>
+            mySet = {1,2,3}<br>
+            newSet = mySet
+        </code>
+    </td>
+    <td>Both refer to same set</td>
+</tr>
+
+
+<!-- CONVERT -->
+
+<tr class="section">
+    <td colspan="4">Convert</td>
+</tr>
+
+<tr>
+    <td>List to Set</td>
+    <td><code>set(myList)</code></td>
+    <td><code>set([1,2,2,3])</code></td>
+    <td><code>{1,2,3}</code></td>
+</tr>
+
+<tr>
+    <td>Tuple to Set</td>
+    <td><code>set(myTuple)</code></td>
+    <td><code>set((1,2,3))</code></td>
+    <td><code>{1,2,3}</code></td>
+</tr>
+
+<tr>
+    <td>Set to List</td>
+    <td><code>list(mySet)</code></td>
+    <td><code>list({1,2,3})</code></td>
+    <td><code>[1,2,3]</code> (order may vary)</td>
+</tr>
+
+
+<!-- INFORMATION -->
+
+<tr class="section">
+    <td colspan="4">Information</td>
+</tr>
+
+<tr>
+    <td>Length</td>
+    <td><code>len(mySet)</code></td>
+    <td><code>len({"apple","banana","mango"})</code></td>
+    <td><code>3</code></td>
+</tr>
+
+<tr>
+    <td>Minimum</td>
+    <td><code>min(mySet)</code></td>
+    <td><code>min({10,20,30})</code></td>
+    <td><code>10</code></td>
+</tr>
+
+<tr>
+    <td>Maximum</td>
+    <td><code>max(mySet)</code></td>
+    <td><code>max({10,20,30})</code></td>
+    <td><code>30</code></td>
+</tr>
+
+<tr>
+    <td>Sum</td>
+    <td><code>sum(mySet)</code></td>
+    <td><code>sum({10,20,30})</code></td>
+    <td><code>60</code></td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>

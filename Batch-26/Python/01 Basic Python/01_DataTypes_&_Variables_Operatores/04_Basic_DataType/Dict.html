@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Python Dictionary Manipulation</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 25px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .note {
+            background: #fff3cd;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #343a40;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .section {
+            background: #e9ecef;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+            background: #f1f1f1;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Python Dictionary Manipulation</h1>
+
+<div class="note">
+    <b>Important:</b> A dictionary stores data in
+    <b>Key : Value</b> pairs.
+    Keys must be unique, while values can be duplicated.
+</div>
+
+<table>
+
+<tr>
+    <th>Operation / Action</th>
+    <th>Python Code</th>
+    <th>Example</th>
+    <th>Output</th>
+</tr>
+
+
+<!-- CREATE -->
+
+<tr class="section">
+    <td colspan="4">Create</td>
+</tr>
+
+<tr>
+    <td>Create Dictionary</td>
+    <td><code>myDict = {...}</code></td>
+    <td>
+        <code>
+        myDict = {"name":"John", "age":25}
+        </code>
+    </td>
+    <td>
+        <code>{"name":"John", "age":25}</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Create Empty Dictionary</td>
+    <td><code>myDict = {}</code></td>
+    <td><code>myDict = {}</code></td>
+    <td><code>{}</code></td>
+</tr>
+
+<tr>
+    <td>Create using dict()</td>
+    <td><code>dict()</code></td>
+    <td>
+        <code>dict(name="John", age=25)</code>
+    </td>
+    <td>
+        <code>{"name":"John", "age":25}</code>
+    </td>
+</tr>
+
+
+<!-- ACCESS -->
+
+<tr class="section">
+    <td colspan="4">Access</td>
+</tr>
+
+<tr>
+    <td>Access Value using Key</td>
+    <td><code>myDict["name"]</code></td>
+    <td>
+        <code>
+        {"name":"John","age":25}["name"]
+        </code>
+    </td>
+    <td><code>John</code></td>
+</tr>
+
+<tr>
+    <td>Access using get()</td>
+    <td><code>myDict.get("name")</code></td>
+    <td>
+        <code>
+        {"name":"John","age":25}.get("name")
+        </code>
+    </td>
+    <td><code>John</code></td>
+</tr>
+
+
+<!-- ADD / UPDATE -->
+
+<tr class="section">
+    <td colspan="4">Add / Update</td>
+</tr>
+
+<tr>
+    <td>Add New Item</td>
+    <td>
+        <code>myDict["city"] = "Pune"</code>
+    </td>
+    <td>
+        <code>
+        myDict = {"name":"John"}<br>
+        myDict["city"] = "Pune"
+        </code>
+    </td>
+    <td>
+        <code>{"name":"John","city":"Pune"}</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Change Value</td>
+    <td>
+        <code>myDict["age"] = 30</code>
+    </td>
+    <td>
+        <code>
+        myDict = {"name":"John","age":25}<br>
+        myDict["age"] = 30
+        </code>
+    </td>
+    <td>
+        <code>{"name":"John","age":30}</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Add / Update Multiple Items</td>
+    <td>
+        <code>myDict.update({...})</code>
+    </td>
+    <td>
+        <code>
+        myDict = {"name":"John"}<br>
+        myDict.update({"age":25,"city":"Pune"})
+        </code>
+    </td>
+    <td>
+        <code>
+        {"name":"John","age":25,"city":"Pune"}
+        </code>
+    </td>
+</tr>
+
+
+<!-- REMOVE -->
+
+<tr class="section">
+    <td colspan="4">Remove / Delete</td>
+</tr>
+
+<tr>
+    <td>Remove Specified Key</td>
+    <td>
+        <code>myDict.pop("age")</code>
+    </td>
+    <td>
+        <code>
+        myDict = {"name":"John","age":25}<br>
+        myDict.pop("age")
+        </code>
+    </td>
+    <td>
+        <code>{"name":"John"}</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Remove Last Item</td>
+    <td>
+        <code>myDict.popitem()</code>
+    </td>
+    <td>
+        <code>
+        myDict = {"name":"John","age":25}<br>
+        myDict.popitem()
+        </code>
+    </td>
+    <td>
+        <code>{"name":"John"}</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Delete by Key</td>
+    <td>
+        <code>del myDict["age"]</code>
+    </td>
+    <td>
+        <code>
+        myDict = {"name":"John","age":25}<br>
+        del myDict["age"]
+        </code>
+    </td>
+    <td>
+        <code>{"name":"John"}</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Clear All Items</td>
+    <td>
+        <code>myDict.clear()</code>
+    </td>
+    <td>
+        <code>
+        myDict = {"name":"John","age":25}<br>
+        myDict.clear()
+        </code>
+    </td>
+    <td><code>{}</code></td>
+</tr>
+
+<tr>
+    <td>Delete Entire Dictionary</td>
+    <td>
+        <code>del myDict</code>
+    </td>
+    <td>
+        <code>
+        myDict = {"name":"John"}<br>
+        del myDict
+        </code>
+    </td>
+    <td>Dictionary deleted</td>
+</tr>
+
+
+<!-- KEYS VALUES ITEMS -->
+
+<tr class="section">
+    <td colspan="4">Keys / Values / Items</td>
+</tr>
+
+<tr>
+    <td>Get All Keys</td>
+    <td>
+        <code>myDict.keys()</code>
+    </td>
+    <td>
+        <code>
+        {"name":"John","age":25}.keys()
+        </code>
+    </td>
+    <td>
+        <code>dict_keys(['name','age'])</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Get All Values</td>
+    <td>
+        <code>myDict.values()</code>
+    </td>
+    <td>
+        <code>
+        {"name":"John","age":25}.values()
+        </code>
+    </td>
+    <td>
+        <code>dict_values(['John',25])</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Get Key-Value Pairs</td>
+    <td>
+        <code>myDict.items()</code>
+    </td>
+    <td>
+        <code>
+        {"name":"John","age":25}.items()
+        </code>
+    </td>
+    <td>
+        <code>
+        dict_items([('name','John'),('age',25)])
+        </code>
+    </td>
+</tr>
+
+
+<!-- SEARCH -->
+
+<tr class="section">
+    <td colspan="4">Search / Check</td>
+</tr>
+
+<tr>
+    <td>Check Key Exists</td>
+    <td>
+        <code>"name" in myDict</code>
+    </td>
+    <td>
+        <code>
+        "name" in {"name":"John","age":25}
+        </code>
+    </td>
+    <td><code>True</code></td>
+</tr>
+
+<tr>
+    <td>Check Value Exists</td>
+    <td>
+        <code>"John" in myDict.values()</code>
+    </td>
+    <td>
+        <code>
+        "John" in {"name":"John","age":25}.values()
+        </code>
+    </td>
+    <td><code>True</code></td>
+</tr>
+
+
+<!-- COPY -->
+
+<tr class="section">
+    <td colspan="4">Copy</td>
+</tr>
+
+<tr>
+    <td>Copy Dictionary</td>
+    <td>
+        <code>newDict = myDict.copy()</code>
+    </td>
+    <td>
+        <code>
+        myDict = {"name":"John","age":25}<br>
+        newDict = myDict.copy()
+        </code>
+    </td>
+    <td>
+        <code>{"name":"John","age":25}</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Assignment / Reference</td>
+    <td>
+        <code>newDict = myDict</code>
+    </td>
+    <td>
+        <code>
+        myDict = {"name":"John"}<br>
+        newDict = myDict
+        </code>
+    </td>
+    <td>Both refer to the same dictionary</td>
+</tr>
+
+
+<!-- MERGE -->
+
+<tr class="section">
+    <td colspan="4">Joining / Merging</td>
+</tr>
+
+<tr>
+    <td>Merge using update()</td>
+    <td>
+        <code>dict1.update(dict2)</code>
+    </td>
+    <td>
+        <code>
+        dict1 = {"a":1}<br>
+        dict2 = {"b":2}<br>
+        dict1.update(dict2)
+        </code>
+    </td>
+    <td>
+        <code>{"a":1,"b":2}</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Merge using |</td>
+    <td>
+        <code>newDict = dict1 | dict2</code>
+    </td>
+    <td>
+        <code>
+        {"a":1} | {"b":2}
+        </code>
+    </td>
+    <td>
+        <code>{"a":1,"b":2}</code>
+    </td>
+</tr>
+
+
+<!-- SORT -->
+
+<tr class="section">
+    <td colspan="4">Sort</td>
+</tr>
+
+<tr>
+    <td>Sort Keys</td>
+    <td>
+        <code>sorted(myDict)</code>
+    </td>
+    <td>
+        <code>
+        sorted({"c":3,"a":1,"b":2})
+        </code>
+    </td>
+    <td>
+        <code>['a','b','c']</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Sort by Keys</td>
+    <td>
+        <code>dict(sorted(myDict.items()))</code>
+    </td>
+    <td>
+        <code>
+        dict(sorted({"c":3,"a":1,"b":2}.items()))
+        </code>
+    </td>
+    <td>
+        <code>{"a":1,"b":2,"c":3}</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Sort by Values</td>
+    <td>
+        <code>
+        dict(sorted(myDict.items(), key=lambda x:x[1]))
+        </code>
+    </td>
+    <td>
+        <code>
+        myDict = {"A":30,"B":10,"C":20}
+        </code>
+    </td>
+    <td>
+        <code>{"B":10,"C":20,"A":30}</code>
+    </td>
+</tr>
+
+
+<!-- CONVERT -->
+
+<tr class="section">
+    <td colspan="4">Convert</td>
+</tr>
+
+<tr>
+    <td>Convert to List of Keys</td>
+    <td>
+        <code>list(myDict)</code>
+    </td>
+    <td>
+        <code>
+        list({"name":"John","age":25})
+        </code>
+    </td>
+    <td>
+        <code>["name","age"]</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Convert Keys to List</td>
+    <td>
+        <code>list(myDict.keys())</code>
+    </td>
+    <td>
+        <code>
+        list({"name":"John","age":25}.keys())
+        </code>
+    </td>
+    <td>
+        <code>["name","age"]</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Convert Values to List</td>
+    <td>
+        <code>list(myDict.values())</code>
+    </td>
+    <td>
+        <code>
+        list({"name":"John","age":25}.values())
+        </code>
+    </td>
+    <td>
+        <code>["John",25]</code>
+    </td>
+</tr>
+
+
+<!-- LENGTH -->
+
+<tr class="section">
+    <td colspan="4">Information</td>
+</tr>
+
+<tr>
+    <td>Length</td>
+    <td>
+        <code>len(myDict)</code>
+    </td>
+    <td>
+        <code>
+        len({"name":"John","age":25,"city":"Pune"})
+        </code>
+    </td>
+    <td><code>3</code></td>
+</tr>
+
+
+<!-- LOOP -->
+
+<tr class="section">
+    <td colspan="4">Loop</td>
+</tr>
+
+<tr>
+    <td>Loop Through Keys</td>
+    <td>
+        <code>for x in myDict:</code>
+    </td>
+    <td>
+        <code>
+        for x in {"name":"John","age":25}:<br>
+        &nbsp;&nbsp;print(x)
+        </code>
+    </td>
+    <td>
+        <code>name<br>age</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Loop Through Values</td>
+    <td>
+        <code>for x in myDict.values():</code>
+    </td>
+    <td>
+        <code>
+        for x in {"name":"John","age":25}.values():<br>
+        &nbsp;&nbsp;print(x)
+        </code>
+    </td>
+    <td>
+        <code>John<br>25</code>
+    </td>
+</tr>
+
+<tr>
+    <td>Loop Through Key & Value</td>
+    <td>
+        <code>for k,v in myDict.items():</code>
+    </td>
+    <td>
+        <code>
+        for k,v in {"name":"John","age":25}.items():<br>
+        &nbsp;&nbsp;print(k,v)
+        </code>
+    </td>
+    <td>
+        <code>
+        name John<br>
+        age 25
+        </code>
+    </td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>

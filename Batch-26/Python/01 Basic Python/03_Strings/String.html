@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Python String Functions</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 25px;
+        }
+
+        .container {
+            max-width: 1250px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .note {
+            background: #fff3cd;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #343a40;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .section {
+            background: #e9ecef;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+            background: #f1f1f1;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+
+        .true {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Important Python String Functions</h1>
+
+<div class="note">
+    <b>Important:</b> Python strings are immutable.
+    String methods return a new string and do not modify the original string.
+</div>
+
+<table>
+
+<tr>
+    <th>Method</th>
+    <th>Example</th>
+    <th>Output</th>
+    <th>Description</th>
+</tr>
+
+
+<!-- CASE CONVERSION -->
+
+<tr class="section">
+    <td colspan="4">Case Conversion</td>
+</tr>
+
+<tr>
+    <td><code>upper()</code></td>
+    <td>
+        <code>
+        txt = "Hello my friends"<br>
+        x = txt.upper()
+        </code>
+    </td>
+    <td><code>HELLO MY FRIENDS</code></td>
+    <td>Converts all characters to uppercase.</td>
+</tr>
+
+<tr>
+    <td><code>lower()</code></td>
+    <td>
+        <code>
+        txt = "Hello my FRIENDS"<br>
+        x = txt.lower()
+        </code>
+    </td>
+    <td><code>hello my friends</code></td>
+    <td>Converts all characters to lowercase.</td>
+</tr>
+
+
+<!-- REPLACE / JOIN / SPLIT -->
+
+<tr class="section">
+    <td colspan="4">Replace / Join / Split</td>
+</tr>
+
+<tr>
+    <td><code>replace()</code></td>
+    <td>
+        <code>
+        txt = "I like bananas"<br>
+        x = txt.replace("bananas", "apples")
+        </code>
+    </td>
+    <td><code>I like apples</code></td>
+    <td>
+        Replaces a specified value with another specified value.
+    </td>
+</tr>
+
+<tr>
+    <td><code>join()</code></td>
+    <td>
+        <code>
+        myTuple = ("John", "Peter", "Vicky")<br>
+        x = "#".join(myTuple)
+        </code>
+    </td>
+    <td><code>John#Peter#Vicky</code></td>
+    <td>
+        Joins the elements of an iterable using the specified string
+        as the separator.
+    </td>
+</tr>
+
+<tr>
+    <td><code>split()</code></td>
+    <td>
+        <code>
+        txt = "welcome to the jungle"<br>
+        x = txt.split()
+        </code>
+    </td>
+    <td>
+        <code>['welcome', 'to', 'the', 'jungle']</code>
+    </td>
+    <td>
+        Splits a string at the specified separator and returns a list.
+    </td>
+</tr>
+
+
+<!-- SEARCH / COUNT -->
+
+<tr class="section">
+    <td colspan="4">Search / Count</td>
+</tr>
+
+<tr>
+    <td><code>count()</code></td>
+    <td>
+        <code>
+        txt = "I love apples, apple are my favorite fruit"<br>
+        x = txt.count("apple")
+        </code>
+    </td>
+    <td><code>2</code></td>
+    <td>
+        Returns the number of times a specified value occurs
+        in the string.
+    </td>
+</tr>
+
+<tr>
+    <td><code>startswith()</code></td>
+    <td>
+        <code>
+        txt = "Hello, welcome to my world."<br>
+        x = txt.startswith("Hello")
+        </code>
+    </td>
+    <td><code>True</code></td>
+    <td>
+        Returns True if the string starts with the specified value.
+    </td>
+</tr>
+
+<tr>
+    <td><code>endswith()</code></td>
+    <td>
+        <code>
+        txt = "Hello, welcome to my world."<br>
+        x = txt.endswith(".")
+        </code>
+    </td>
+    <td><code>True</code></td>
+    <td>
+        Returns True if the string ends with the specified value.
+    </td>
+</tr>
+
+<tr>
+    <td><code>find()</code></td>
+    <td>
+        <code>
+        txt = "Hello, welcome to my world."<br>
+        x = txt.find("welcome")
+        </code>
+    </td>
+    <td><code>7</code></td>
+    <td>
+        Returns the index position where the specified value
+        is first found. Returns <code>-1</code> if not found.
+    </td>
+</tr>
+
+<tr>
+    <td><code>index()</code></td>
+    <td>
+        <code>
+        txt = "Hello, welcome to my world."<br>
+        x = txt.index("welcome")
+        </code>
+    </td>
+    <td><code>7</code></td>
+    <td>
+        Returns the index position where the specified value
+        is first found. Raises an error if not found.
+    </td>
+</tr>
+
+
+<!-- STRING VALIDATION -->
+
+<tr class="section">
+    <td colspan="4">String Validation</td>
+</tr>
+
+<tr>
+    <td><code>isnumeric()</code></td>
+    <td>
+        <code>
+        txt = "565543"<br>
+        x = txt.isnumeric()
+        </code>
+    </td>
+    <td><code>True</code></td>
+    <td>
+        Returns True if all characters in the string are numeric.
+    </td>
+</tr>
+
+<tr>
+    <td><code>isdigit()</code></td>
+    <td>
+        <code>
+        txt = "50800"<br>
+        x = txt.isdigit()
+        </code>
+    </td>
+    <td><code>True</code></td>
+    <td>
+        Returns True if all characters in the string are digits.
+    </td>
+</tr>
+
+<tr>
+    <td><code>isalpha()</code></td>
+    <td>
+        <code>
+        txt = "Company"<br>
+        x = txt.isalpha()
+        </code>
+    </td>
+    <td><code>True</code></td>
+    <td>
+        Returns True if all characters in the string are alphabetic.
+    </td>
+</tr>
+
+<tr>
+    <td><code>isalnum()</code></td>
+    <td>
+        <code>
+        txt = "Company12"<br>
+        x = txt.isalnum()
+        </code>
+    </td>
+    <td><code>True</code></td>
+    <td>
+        Returns True if all characters are letters or numbers.
+    </td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>

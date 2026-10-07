@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Dictionary Methods</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 25px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .note {
+            background: #fff3cd;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        th {
+            background: #343a40;
+            color: white;
+            padding: 9px;
+            text-align: left;
+        }
+
+        td {
+            padding: 8px 10px;
+            border-bottom: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .section {
+            background: #e9ecef;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .description {
+            background: #fafafa;
+            font-size: 10px;
+            color: #555;
+        }
+
+        .description td {
+            padding: 4px 10px 7px 10px;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+            background: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Important Python Dictionary Methods</h1>
+
+    <div class="note">
+        <b>Example Dictionary:</b>
+        <code>myDict = {"name": "John", "age": 25, "city": "Pune"}</code>
+        <br><br>
+
+        <b>Note:</b> Dictionaries store data in
+        <b>key : value</b> pairs. Keys must be unique.
+    </div>
+
+    <table>
+
+        <tr>
+            <th>Method / Operation</th>
+            <th>Example</th>
+            <th>Output / Result</th>
+        </tr>
+
+
+        <!-- ACCESS -->
+
+        <tr class="section">
+            <td colspan="3">Access Items</td>
+        </tr>
+
+        <tr>
+            <td><code>[key]</code></td>
+            <td><code>myDict["name"]</code></td>
+            <td><code>John</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns the value of the specified key.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>get()</code></td>
+            <td><code>myDict.get("age")</code></td>
+            <td><code>25</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns the value of the specified key.
+                Returns None if the key does not exist.
+            </td>
+        </tr>
+
+
+        <!-- ADD / UPDATE -->
+
+        <tr class="section">
+            <td colspan="3">Add / Update Items</td>
+        </tr>
+
+        <tr>
+            <td><code>[key] = value</code></td>
+            <td><code>myDict["country"] = "India"</code></td>
+            <td>
+                <code>
+                    {"name": "John", "age": 25,
+                    "city": "Pune", "country": "India"}
+                </code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Adds a new key-value pair to the dictionary.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>[key] = value</code></td>
+            <td><code>myDict["age"] = 30</code></td>
+            <td>
+                <code>
+                    {"name": "John", "age": 30, "city": "Pune"}
+                </code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Changes the value if the key
+                already exists.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>update()</code></td>
+            <td>
+                <code>myDict.update({"age": 30, "country": "India"})</code>
+            </td>
+            <td>
+                <code>
+                    {"name": "John", "age": 30,
+                    "city": "Pune", "country": "India"}
+                </code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Adds new items or updates
+                existing key-value pairs.
+            </td>
+        </tr>
+
+
+        <!-- REMOVE -->
+
+        <tr class="section">
+            <td colspan="3">Remove Items</td>
+        </tr>
+
+        <tr>
+            <td><code>pop()</code></td>
+            <td><code>myDict.pop("age")</code></td>
+            <td>
+                <code>{"name": "John", "city": "Pune"}</code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Removes the specified key
+                and returns its value.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>popitem()</code></td>
+            <td><code>myDict.popitem()</code></td>
+            <td>
+                <code>Removes the last inserted key-value pair</code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Removes and returns the last
+                inserted key-value pair.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>del</code></td>
+            <td><code>del myDict["age"]</code></td>
+            <td>
+                <code>{"name": "John", "city": "Pune"}</code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Deletes the specified key-value pair.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>clear()</code></td>
+            <td><code>myDict.clear()</code></td>
+            <td><code>{}</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Removes all items from the dictionary.
+            </td>
+        </tr>
+
+
+        <!-- KEYS / VALUES / ITEMS -->
+
+        <tr class="section">
+            <td colspan="3">Keys / Values / Items</td>
+        </tr>
+
+        <tr>
+            <td><code>keys()</code></td>
+            <td><code>myDict.keys()</code></td>
+            <td>
+                <code>dict_keys(['name', 'age', 'city'])</code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns all keys from the dictionary.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>values()</code></td>
+            <td><code>myDict.values()</code></td>
+            <td>
+                <code>dict_values(['John', 25, 'Pune'])</code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns all values from the dictionary.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>items()</code></td>
+            <td><code>myDict.items()</code></td>
+            <td>
+                <code>
+                    dict_items([('name','John'),
+                    ('age',25), ('city','Pune')])
+                </code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns all key-value pairs
+                as tuple-like pairs.
+            </td>
+        </tr>
+
+
+        <!-- CHECK -->
+
+        <tr class="section">
+            <td colspan="3">Check Item</td>
+        </tr>
+
+        <tr>
+            <td><code>in</code></td>
+            <td><code>"name" in myDict</code></td>
+            <td><code>True</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Checks whether the specified
+                key exists in the dictionary.
+            </td>
+        </tr>
+
+
+        <!-- LENGTH -->
+
+        <tr class="section">
+            <td colspan="3">Length</td>
+        </tr>
+
+        <tr>
+            <td><code>len()</code></td>
+            <td><code>len(myDict)</code></td>
+            <td><code>3</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns the number of key-value
+                pairs in the dictionary.
+            </td>
+        </tr>
+
+
+        <!-- COPY -->
+
+        <tr class="section">
+            <td colspan="3">Copy</td>
+        </tr>
+
+        <tr>
+            <td><code>copy()</code></td>
+            <td><code>newDict = myDict.copy()</code></td>
+            <td>
+                <code>
+                    {"name": "John", "age": 25, "city": "Pune"}
+                </code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Creates a shallow copy
+                of the dictionary.
+            </td>
+        </tr>
+
+
+        <!-- CREATE -->
+
+        <tr class="section">
+            <td colspan="3">Create Dictionary</td>
+        </tr>
+
+        <tr>
+            <td><code>dict()</code></td>
+            <td>
+                <code>dict(name="John", age=25)</code>
+            </td>
+            <td>
+                <code>{"name": "John", "age": 25}</code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Creates a new dictionary.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>fromkeys()</code></td>
+            <td>
+                <code>
+                    keys = ("name", "age", "city")<br>
+                    dict.fromkeys(keys, "Unknown")
+                </code>
+            </td>
+            <td>
+                <code>
+                    {"name": "Unknown", "age": "Unknown",
+                    "city": "Unknown"}
+                </code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Creates a dictionary using
+                specified keys with the same default value.
+            </td>
+        </tr>
+
+
+        <!-- SETDEFAULT -->
+
+        <tr class="section">
+            <td colspan="3">Default Value</td>
+        </tr>
+
+        <tr>
+            <td><code>setdefault()</code></td>
+            <td>
+                <code>myDict.setdefault("country", "India")</code>
+            </td>
+            <td>
+                <code>
+                    {"name": "John", "age": 25,
+                    "city": "Pune", "country": "India"}
+                </code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns the value if the key exists.
+                If not, it inserts the key with the specified default value.
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>

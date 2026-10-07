@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Tuple Methods</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+            padding: 25px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .note {
+            background: #fff3cd;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        th {
+            background: #343a40;
+            color: white;
+            padding: 9px;
+            text-align: left;
+        }
+
+        td {
+            padding: 8px 10px;
+            border-bottom: 1px solid #ddd;
+            vertical-align: top;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .section {
+            background: #e9ecef;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .description {
+            background: #fafafa;
+            font-size: 10px;
+            color: #555;
+        }
+
+        .description td {
+            padding: 4px 10px 7px 10px;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+            background: #f1f1f1;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Important Python Tuple Methods</h1>
+
+    <div class="note">
+        <b>Example Tuple:</b>
+        <code>myTuple = ("apple", "banana", "mango")</code>
+        <br><br>
+
+        <b>Note:</b> Tuples are ordered and immutable.
+        Once created, tuple items cannot be directly added,
+        removed, or changed.
+    </div>
+
+    <table>
+
+        <tr>
+            <th>Method / Operation</th>
+            <th>Example</th>
+            <th>Output / Result</th>
+        </tr>
+
+
+        <!-- ACCESS -->
+
+        <tr class="section">
+            <td colspan="3">Access Items</td>
+        </tr>
+
+        <tr>
+            <td><code>Index [ ]</code></td>
+            <td><code>myTuple[0]</code></td>
+            <td><code>apple</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns the item at the specified index.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>Negative Index</code></td>
+            <td><code>myTuple[-1]</code></td>
+            <td><code>mango</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Negative indexing accesses items
+                from the end of the tuple.
+            </td>
+        </tr>
+
+
+        <!-- SLICING -->
+
+        <tr class="section">
+            <td colspan="3">Slicing</td>
+        </tr>
+
+        <tr>
+            <td><code>[start:end]</code></td>
+            <td><code>myTuple[0:2]</code></td>
+            <td><code>("apple", "banana")</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns a range of items from the tuple.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>[::-1]</code></td>
+            <td><code>myTuple[::-1]</code></td>
+            <td><code>("mango", "banana", "apple")</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns the tuple in reverse order.
+            </td>
+        </tr>
+
+
+        <!-- COUNT / SEARCH -->
+
+        <tr class="section">
+            <td colspan="3">Search / Count</td>
+        </tr>
+
+        <tr>
+            <td><code>index()</code></td>
+            <td><code>myTuple.index("banana")</code></td>
+            <td><code>1</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns the index position of
+                the specified item.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>count()</code></td>
+
+            <td>
+                <code>
+                    myTuple = ("apple", "banana", "apple")<br>
+                    myTuple.count("apple")
+                </code>
+            </td>
+
+            <td><code>2</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns how many times the specified
+                item appears in the tuple.
+            </td>
+        </tr>
+
+
+        <!-- ADD -->
+
+        <tr class="section">
+            <td colspan="3">Add / Join</td>
+        </tr>
+
+        <tr>
+            <td><code>+</code></td>
+
+            <td>
+                <code>
+                    tuple1 = ("apple", "banana")<br>
+                    tuple2 = ("mango", "orange")<br>
+                    newTuple = tuple1 + tuple2
+                </code>
+            </td>
+
+            <td>
+                <code>
+                    ("apple", "banana", "mango", "orange")
+                </code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Joins two tuples and creates a new tuple.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>+=</code></td>
+
+            <td>
+                <code>
+                    myTuple = ("apple", "banana")<br>
+                    myTuple += ("mango",)
+                </code>
+            </td>
+
+            <td>
+                <code>("apple", "banana", "mango")</code>
+            </td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Adds another tuple by creating
+                and assigning a new tuple.
+            </td>
+        </tr>
+
+
+        <!-- REPEAT -->
+
+        <tr class="section">
+            <td colspan="3">Repeat</td>
+        </tr>
+
+        <tr>
+            <td><code>*</code></td>
+            <td><code>("A", "B") * 2</code></td>
+            <td><code>("A", "B", "A", "B")</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Repeats the tuple the specified
+                number of times.
+            </td>
+        </tr>
+
+
+        <!-- CHECK ITEM -->
+
+        <tr class="section">
+            <td colspan="3">Check Item</td>
+        </tr>
+
+        <tr>
+            <td><code>in</code></td>
+            <td><code>"banana" in myTuple</code></td>
+            <td><code>True</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Checks whether an item exists
+                in the tuple.
+            </td>
+        </tr>
+
+
+        <!-- LENGTH -->
+
+        <tr class="section">
+            <td colspan="3">Length</td>
+        </tr>
+
+        <tr>
+            <td><code>len()</code></td>
+            <td><code>len(myTuple)</code></td>
+            <td><code>3</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Returns the total number of items
+                in the tuple.
+            </td>
+        </tr>
+
+
+        <!-- CONVERT -->
+
+        <tr class="section">
+            <td colspan="3">Convert</td>
+        </tr>
+
+        <tr>
+            <td><code>list()</code></td>
+            <td><code>list(myTuple)</code></td>
+            <td><code>["apple", "banana", "mango"]</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Converts a tuple into a list.
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><code>tuple()</code></td>
+            <td><code>tuple(["apple", "banana", "mango"])</code></td>
+            <td><code>("apple", "banana", "mango")</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Converts another iterable,
+                such as a list, into a tuple.
+            </td>
+        </tr>
+
+
+        <!-- COPY -->
+
+        <tr class="section">
+            <td colspan="3">Copy</td>
+        </tr>
+
+        <tr>
+            <td><code>Assignment</code></td>
+            <td><code>newTuple = myTuple</code></td>
+            <td><code>("apple", "banana", "mango")</code></td>
+        </tr>
+
+        <tr class="description">
+            <td colspan="3">
+                <b>Description:</b> Assigns the tuple to another variable.
+                Since tuples are immutable, a separate copy method is
+                generally not required.
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+
+</body>
+</html>

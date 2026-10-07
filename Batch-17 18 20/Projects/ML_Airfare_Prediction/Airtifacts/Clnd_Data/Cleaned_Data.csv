@@ -656,7 +656,7 @@ Jet Airways,Delhi,Cochin,1 stop,12898.0,1040.0,27,5,2019,19,15,28,5,2019,12,35
 IndiGo,Mumbai,Hyderabad,non-stop,2754.0,90.0,6,9,2019,12,0,6,9,2019,13,30
 SpiceJet,Mumbai,Hyderabad,non-stop,1965.0,90.0,5,3,2019,13,15,5,3,2019,14,45
 Air India,Kolkata,Banglore,2 stops,12835.0,1830.0,24,3,2019,16,45,25,3,2019,23,15
-Jet Airways Business,Banglore,Delhi,1 stop,52229.0,300.0,3,1,2019,5,45,3,1,2019,10,45
+Jet Airways,Banglore,Delhi,1 stop,52229.0,300.0,3,1,2019,5,45,3,1,2019,10,45
 Multiple carriers,Delhi,Cochin,1 stop,14533.0,675.0,15,5,2019,8,0,15,5,2019,19,15
 Vistara,Banglore,Delhi,non-stop,4668.0,170.0,24,6,2019,9,45,24,6,2019,12,35
 Jet Airways,Delhi,Cochin,1 stop,11822.0,1145.0,4,9,2019,17,30,4,10,2019,12,35
@@ -2877,7 +2877,6 @@ Jet Airways,Kolkata,Banglore,1 stop,10539.0,1480.0,6,9,2019,20,25,6,10,2019,21,5
 Jet Airways,Kolkata,Banglore,1 stop,14676.0,750.0,6,9,2019,9,35,6,9,2019,22,5
 Jet Airways,Delhi,Cochin,1 stop,6017.0,1570.0,27,3,2019,2,15,28,3,2019,4,25
 Jet Airways,Banglore,Delhi,non-stop,4544.0,185.0,4,1,2019,18,55,4,1,2019,22,0
-Trujet,Mumbai,Hyderabad,1 stop,4140.0,195.0,3,6,2019,13,5,3,6,2019,16,20
 Jet Airways,Banglore,Delhi,non-stop,7229.0,175.0,5,3,2019,11,10,5,3,2019,14,5
 Air India,Delhi,Cochin,2 stops,16373.0,1275.0,3,9,2019,22,0,3,10,2019,19,15
 Air India,Kolkata,Banglore,2 stops,10991.0,1045.0,5,1,2019,5,50,5,1,2019,23,15
@@ -2923,7 +2922,7 @@ Air India,Delhi,Cochin,1 stop,18959.0,635.0,3,9,2019,8,40,3,9,2019,19,15
 IndiGo,Mumbai,Hyderabad,non-stop,4784.0,85.0,3,3,2019,6,20,3,3,2019,7,45
 Air India,Kolkata,Banglore,1 stop,7893.0,1110.0,4,1,2019,17,30,4,2,2019,12,0
 Air India,Delhi,Cochin,2 stops,14431.0,1490.0,27,6,2019,6,50,28,6,2019,7,40
-Jet Airways Business,Banglore,Delhi,1 stop,79512.0,340.0,3,1,2019,5,45,3,1,2019,11,25
+Jet Airways,Banglore,Delhi,1 stop,79512.0,340.0,3,1,2019,5,45,3,1,2019,11,25
 Jet Airways,Mumbai,Hyderabad,non-stop,3210.0,90.0,24,5,2019,19,35,24,5,2019,21,5
 Multiple carriers,Delhi,Cochin,1 stop,13677.0,900.0,3,9,2019,6,0,3,9,2019,21,0
 Air India,Delhi,Cochin,1 stop,7480.0,1640.0,27,5,2019,6,5,28,5,2019,9,25
@@ -5371,7 +5370,7 @@ IndiGo,Banglore,Delhi,non-stop,3943.0,180.0,4,9,2019,21,15,4,10,2019,0,15
 Vistara,Banglore,Delhi,non-stop,7608.0,175.0,3,3,2019,21,10,3,4,2019,0,5
 Air India,Banglore,Delhi,non-stop,6961.0,165.0,27,5,2019,10,0,27,5,2019,12,45
 Multiple carriers,Delhi,Cochin,1 stop,12042.0,585.0,6,1,2019,9,15,6,1,2019,19,0
-Jet Airways Business,Banglore,Delhi,1 stop,62427.0,400.0,3,1,2019,5,45,3,1,2019,12,25
+Jet Airways,Banglore,Delhi,1 stop,62427.0,400.0,3,1,2019,5,45,3,1,2019,12,25
 Air India,Banglore,Delhi,2 stops,9586.0,655.0,3,9,2019,10,30,3,9,2019,21,25
 SpiceJet,Chennai,Kolkata,non-stop,3543.0,135.0,6,1,2019,8,20,6,1,2019,10,35
 Jet Airways,Delhi,Cochin,2 stops,13882.0,1630.0,6,9,2019,9,25,6,10,2019,12,35
@@ -7350,7 +7349,7 @@ SpiceJet,Kolkata,Banglore,non-stop,3847.0,150.0,27,3,2019,9,0,27,3,2019,11,30
 IndiGo,Delhi,Cochin,1 stop,6093.0,625.0,6,3,2019,10,35,6,3,2019,21,0
 Air India,Delhi,Cochin,2 stops,13547.0,1105.0,27,6,2019,13,15,28,6,2019,7,40
 Air Asia,Banglore,Delhi,non-stop,7120.0,170.0,6,6,2019,23,55,6,7,2019,2,45
-Jet Airways Business,Delhi,Cochin,2 stops,46490.0,500.0,3,3,2019,20,5,3,4,2019,4,25
+Jet Airways,Delhi,Cochin,2 stops,46490.0,500.0,3,3,2019,20,5,3,4,2019,4,25
 Jet Airways,Delhi,Cochin,2 stops,12872.0,1620.0,27,5,2019,9,35,28,5,2019,12,35
 IndiGo,Kolkata,Banglore,1 stop,4226.0,220.0,15,5,2019,19,35,15,5,2019,23,15
 Jet Airways,Kolkata,Banglore,1 stop,10844.0,865.0,24,5,2019,18,55,25,5,2019,9,20
@@ -9714,7 +9713,7 @@ IndiGo,Chennai,Kolkata,non-stop,6297.0,135.0,3,9,2019,13,20,3,9,2019,15,35
 Jet Airways,Kolkata,Banglore,1 stop,9314.0,1295.0,5,6,2019,20,25,5,7,2019,18,0
 Vistara,Banglore,Delhi,non-stop,6138.0,165.0,15,3,2019,9,50,15,3,2019,12,35
 IndiGo,Delhi,Cochin,1 stop,6838.0,705.0,24,6,2019,9,15,24,6,2019,21,0
-Jet Airways Business,Delhi,Cochin,2 stops,52285.0,500.0,3,6,2019,20,5,3,7,2019,4,25
+Jet Airways,Delhi,Cochin,2 stops,52285.0,500.0,3,6,2019,20,5,3,7,2019,4,25
 Multiple carriers,Delhi,Cochin,1 stop,13377.0,690.0,6,9,2019,14,0,6,10,2019,1,30
 Air India,Delhi,Cochin,2 stops,10975.0,1420.0,18,5,2019,9,45,19,5,2019,9,25
 Jet Airways,Banglore,Delhi,1 stop,13817.0,935.0,3,12,2019,5,45,3,12,2019,21,20
@@ -10363,7 +10362,7 @@ Air India,Delhi,Cochin,2 stops,13022.0,1560.0,15,5,2019,17,15,16,5,2019,19,15
 GoAir,Kolkata,Banglore,1 stop,3673.0,475.0,6,9,2019,6,40,6,9,2019,14,35
 Jet Airways,Delhi,Cochin,1 stop,15764.0,365.0,3,6,2019,22,20,3,7,2019,4,25
 Jet Airways,Delhi,Cochin,2 stops,12609.0,910.0,24,6,2019,21,25,25,6,2019,12,35
-Jet Airways Business,Banglore,Delhi,1 stop,57209.0,280.0,3,1,2019,9,45,3,1,2019,14,25
+Jet Airways,Banglore,Delhi,1 stop,57209.0,280.0,3,1,2019,9,45,3,1,2019,14,25
 Vistara,Banglore,Delhi,non-stop,5613.0,170.0,4,6,2019,9,45,4,6,2019,12,35
 Multiple carriers,Delhi,Cochin,1 stop,6630.0,870.0,21,3,2019,4,45,21,3,2019,19,15
 Jet Airways,Mumbai,Hyderabad,non-stop,5678.0,90.0,27,6,2019,19,35,27,6,2019,21,5
@@ -10659,9 +10658,9 @@ Vistara,Banglore,Delhi,non-stop,5613.0,160.0,4,6,2019,7,0,4,6,2019,9,40
 Jet Airways,Kolkata,Banglore,1 stop,9663.0,800.0,5,6,2019,20,0,5,7,2019,9,20
 Jet Airways,Banglore,Delhi,non-stop,5769.0,175.0,18,6,2019,11,10,18,6,2019,14,5
 Vistara,Banglore,Delhi,non-stop,4668.0,170.0,5,1,2019,21,0,5,1,2019,23,50
-Vistara,Delhi,Cochin,non-stop,9086.154126895002,175.0,21,3,2019,21,10,22,3,2019,0,5
-Air India,Delhi,Cochin,1 stop,9086.154126895002,375.0,5,9,2019,13,0,5,9,2019,19,15
-Air India,Kolkata,Banglore,2 stops,9086.154126895002,1210.0,24,3,2019,9,25,25,3,2019,5,35
+Vistara,Delhi,Cochin,non-stop,9086.617033224145,175.0,21,3,2019,21,10,22,3,2019,0,5
+Air India,Delhi,Cochin,1 stop,9086.617033224145,375.0,5,9,2019,13,0,5,9,2019,19,15
+Air India,Kolkata,Banglore,2 stops,9086.617033224145,1210.0,24,3,2019,9,25,25,3,2019,5,35
 Jet Airways,Delhi,Cochin,2 stops,11733.0,1025.0,6,6,2019,19,30,6,7,2019,12,35
 IndiGo,Banglore,Delhi,non-stop,4823.0,175.0,4,9,2019,18,55,4,9,2019,21,50
 IndiGo,Kolkata,Banglore,non-stop,4804.0,150.0,27,4,2019,15,15,27,4,2019,17,45

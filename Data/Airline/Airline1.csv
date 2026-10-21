@@ -656,7 +656,7 @@ ID,Airline,Date_of_Journey,Source,Destination,Route,Dep_Time,Arrival_Time,Durati
 655,IndiGo,09-06-2019 12:00,Mumbai,Hyderabad,BOM _ HYD,12:00,09-06-2019 13:30,1h 30m,non-stop,No info,2754
 656,SpiceJet,03-05-2019 13:15,Mumbai,Hyderabad,BOM _ HYD,13:15,03-05-2019 14:45,1h 30m,non-stop,No check-in baggage included,1965
 657,Air India,24-03-2019 16:45,Kolkata,Banglore,CCU _ GAU _ DEL _ BLR,16:45,25-03-2019 23:15,30h 30m,2 stops,No info,12835
-658,Jet Airways Business,01-03-2019 05:45,Banglore,New Delhi,BLR _ BOM _ DEL,05:45,01-03-2019 10:45,5h 00m,1 stop,No info,52229
+658,Jet Airways,01-03-2019 05:45,Banglore,New Delhi,BLR _ BOM _ DEL,05:45,01-03-2019 10:45,5h 00m,1 stop,No info,52229
 659,Multiple carriers,15-05-2019 08:00,Delhi,Cochin,DEL _ BOM _ COK,08:00,15-05-2019 19:15,11h 15m,1 stop,No info,14533
 660,Vistara,24-06-2019 09:45,Banglore,Delhi,BLR _ DEL,09:45,24-06-2019 12:35,2h 50m,non-stop,No info,4668
 661,Jet Airways,09-04-2019 17:30,Delhi,Cochin,DEL _ BOM _ COK,17:30,10-04-2019 12:35,19h 5m,1 stop,No info,11822
@@ -2877,7 +2877,6 @@ ID,Airline,Date_of_Journey,Source,Destination,Route,Dep_Time,Arrival_Time,Durati
 2876,Jet Airways,09-06-2019 09:35,Kolkata,Banglore,CCU _ DEL _ BLR,09:35,09-06-2019 22:05,12h 30m,1 stop,No info,14676
 2877,Jet Airways,27-03-2019 02:15,Delhi,Cochin,DEL _ BOM _ COK,02:15,28-03-2019 04:25,26h 10m,1 stop,In-flight meal not included,6017
 2878,Jet Airways,01-04-2019 18:55,Banglore,Delhi,BLR _ DEL,18:55,01-04-2019 22:00,3h 5m,non-stop,In-flight meal not included,4544
-2879,Trujet,06-03-2019 13:05,Mumbai,Hyderabad,BOM _ NDC _ HYD,13:05,06-03-2019 16:20,3h 15m,1 stop,No info,4140
 2880,Jet Airways,03-05-2019 11:10,Banglore,Delhi,BLR _ DEL,11:10,03-05-2019 14:05,2h 55m,non-stop,No info,7229
 2881,Air India,09-03-2019 22:00,Delhi,Cochin,DEL _ GOI _ BOM _ COK,22:00,10-03-2019 19:15,21h 15m,2 stops,No info,16373
 2882,Air India,01-05-2019 05:50,Kolkata,Banglore,CCU _ IXR _ DEL _ BLR,05:50,01-05-2019 23:15,17h 25m,2 stops,No info,10991
@@ -2923,7 +2922,7 @@ ID,Airline,Date_of_Journey,Source,Destination,Route,Dep_Time,Arrival_Time,Durati
 2922,IndiGo,03-03-2019 06:20,Mumbai,Hyderabad,BOM _ HYD,06:20,03-03-2019 07:45,1h 25m,non-stop,No info,4784
 2923,Air India,01-04-2019 17:30,Kolkata,Banglore,CCU _ DEL _ BLR,17:30,02-04-2019 12:00,18h 30m,1 stop,No info,7893
 2924,Air India,27-06-2019 06:50,Delhi,Cochin,DEL _ CCU _ BOM _ COK,06:50,28-06-2019 07:40,24h 50m,2 stops,No info,14431
-2925,Jet Airways Business,01-03-2019 05:45,Banglore,New Delhi,BLR _ BOM _ DEL,05:45,01-03-2019 11:25,5h 40m,1 stop,Business class,79512
+2925,Jet Airways,01-03-2019 05:45,Banglore,New Delhi,BLR _ BOM _ DEL,05:45,01-03-2019 11:25,5h 40m,1 stop,Business class,79512
 2926,Jet Airways,24-05-2019 19:35,Mumbai,Hyderabad,BOM _ HYD,19:35,24-05-2019 21:05,1h 30m,non-stop,In-flight meal not included,3210
 2927,Multiple carriers,09-03-2019 06:00,Delhi,Cochin,DEL _ BOM _ COK,06:00,09-03-2019 21:00,15h 00m,1 stop,No info,13677
 2928,Air India,27-05-2019 06:05,Delhi,Cochin,DEL _ MAA _ COK,06:05,28-05-2019 09:25,27h 20m,1 stop,No info,7480
@@ -5371,7 +5370,7 @@ ID,Airline,Date_of_Journey,Source,Destination,Route,Dep_Time,Arrival_Time,Durati
 5370,Vistara,03-03-2019 21:10,Banglore,New Delhi,BLR _ DEL,21:10,04-03-2019 00:05,2h 55m,non-stop,No info,7608
 5371,Air India,27-05-2019 10:00,Banglore,Delhi,BLR _ DEL,10:00,27-05-2019 12:45,2h 45m,non-stop,No info,6961
 5372,Multiple carriers,01-06-2019 09:15,Delhi,Cochin,DEL _ BOM _ COK,09:15,01-06-2019 19:00,9h 45m,1 stop,No info,12042
-5373,Jet Airways Business,01-03-2019 05:45,Banglore,New Delhi,BLR _ BOM _ DEL,05:45,01-03-2019 12:25,6h 40m,1 stop,Business class,62427
+5373,Jet Airways,01-03-2019 05:45,Banglore,New Delhi,BLR _ BOM _ DEL,05:45,01-03-2019 12:25,6h 40m,1 stop,Business class,62427
 5374,Air India,09-03-2019 10:30,Banglore,New Delhi,BLR _ VGA _ HYD _ DEL,10:30,09-03-2019 21:25,10h 55m,2 stops,No info,9586
 5375,SpiceJet,01-06-2019 08:20,Chennai,Kolkata,MAA _ CCU,08:20,01-06-2019 10:35,2h 15m,non-stop,No check-in baggage included,3543
 5376,Jet Airways,09-06-2019 09:25,Delhi,Cochin,DEL _ LKO _ BOM _ COK,09:25,10-06-2019 12:35,27h 10m,2 stops,No info,13882
@@ -7350,7 +7349,7 @@ ID,Airline,Date_of_Journey,Source,Destination,Route,Dep_Time,Arrival_Time,Durati
 7349,IndiGo,03-06-2019 10:35,Delhi,Cochin,DEL _ BOM _ COK,10:35,03-06-2019 21:00,10h 25m,1 stop,No info,6093
 7350,Air India,27-06-2019 13:15,Delhi,Cochin,DEL _ HYD _ BOM _ COK,13:15,28-06-2019 07:40,18h 25m,2 stops,No info,13547
 7351,Air Asia,06-06-2019 23:55,Banglore,Delhi,BLR _ DEL,23:55,07-06-2019 02:45,2h 50m,non-stop,No info,7120
-7352,Jet Airways Business,03-03-2019 20:05,Delhi,Cochin,DEL _ ATQ _ BOM _ COK,20:05,04-03-2019 04:25,8h 20m,2 stops,No info,46490
+7352,Jet Airways,03-03-2019 20:05,Delhi,Cochin,DEL _ ATQ _ BOM _ COK,20:05,04-03-2019 04:25,8h 20m,2 stops,No info,46490
 7353,Jet Airways,27-05-2019 09:35,Delhi,Cochin,DEL _ IDR _ BOM _ COK,09:35,28-05-2019 12:35,27h 00m,2 stops,In-flight meal not included,12872
 7354,IndiGo,15-05-2019 19:35,Kolkata,Banglore,CCU _ BBI _ BLR,19:35,15-05-2019 23:15,3h 40m,1 stop,No info,4226
 7355,Jet Airways,24-05-2019 18:55,Kolkata,Banglore,CCU _ BOM _ BLR,18:55,25-05-2019 09:20,14h 25m,1 stop,In-flight meal not included,10844
@@ -9714,7 +9713,7 @@ ID,Airline,Date_of_Journey,Source,Destination,Route,Dep_Time,Arrival_Time,Durati
 9713,Jet Airways,06-05-2019 20:25,Kolkata,Banglore,CCU ? DEL ? BLR,20:25,07-05-2019 18:00,21h 35m,1 stop,In-flight meal not included,9314
 9714,Vistara,15-03-2019 09:50,Banglore,New Delhi,BLR ? DEL,09:50,15-03-2019 12:35,2h 45m,non-stop,No info,6138
 9715,IndiGo,24-06-2019 09:15,Delhi,Cochin,DEL ? BOM ? COK,09:15,24-06-2019 21:00,11h 45m,1 stop,No info,6838
-9716,Jet Airways Business,06-03-2019 20:05,Delhi,Cochin,DEL ? ATQ ? BOM ? COK,20:05,07-03-2019 04:25,8h 20m,2 stops,No info,52285
+9716,Jet Airways,06-03-2019 20:05,Delhi,Cochin,DEL ? ATQ ? BOM ? COK,20:05,07-03-2019 04:25,8h 20m,2 stops,No info,52285
 9717,Multiple carriers,09-06-2019 14:00,Delhi,Cochin,DEL ? BOM ? COK,14:00,10-06-2019 01:30,11h 30m,1 stop,No info,13377
 9718,Air India,18-05-2019 09:45,Delhi,Cochin,DEL ? HYD ? MAA ? COK,09:45,19-05-2019 09:25,23h 40m,2 stops,No info,10975
 9719,Jet Airways,12-03-2019 05:45,Banglore,New Delhi,BLR ? BOM ? DEL,05:45,12-03-2019 21:20,15h 35m,1 stop,No info,13817
@@ -10363,7 +10362,7 @@ ID,Airline,Date_of_Journey,Source,Destination,Route,Dep_Time,Arrival_Time,Durati
 10362,GoAir,09-06-2019 06:40,Kolkata,Banglore,CCU ? HYD ? BLR,06:40,09-06-2019 14:35,7h 55m,1 stop,No info,3673
 10363,Jet Airways,06-03-2019 22:20,Delhi,Cochin,DEL ? BOM ? COK,22:20,07-03-2019 04:25,6h 5m,1 stop,No info,15764
 10364,Jet Airways,24-06-2019 21:25,Delhi,Cochin,DEL ? IDR ? BOM ? COK,21:25,25-06-2019 12:35,15h 10m,2 stops,No info,12609
-10365,Jet Airways Business,01-03-2019 09:45,Banglore,New Delhi,BLR ? MAA ? DEL,09:45,01-03-2019 14:25,4h 40m,1 stop,Business class,57209
+10365,Jet Airways,01-03-2019 09:45,Banglore,New Delhi,BLR ? MAA ? DEL,09:45,01-03-2019 14:25,4h 40m,1 stop,Business class,57209
 10366,Vistara,06-04-2019 09:45,Banglore,Delhi,BLR ? DEL,09:45,06-04-2019 12:35,2h 50m,non-stop,No info,5613
 10367,Multiple carriers,21-03-2019 04:45,Delhi,Cochin,DEL ? BOM ? COK,04:45,21-03-2019 19:15,14h 30m,1 stop,No info,6630
 10368,Jet Airways,27-06-2019 19:35,Mumbai,Hyderabad,BOM ? HYD,19:35,27-06-2019 21:05,1h 30m,non-stop,No info,5678

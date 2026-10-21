@@ -1,5 +1,14 @@
-col_01 = ["Red", "Yellow", "LightGreen"]
-col_02 = ["Black","White" ,"LightGreen"]
-for i in col_01:
-    for j in col_02:
-        print(i,j)
+# return multiplication of all the values
+numbers = [1, 2, 3, 4, 5]
+newVal = 1
+
+for i in numbers:
+    newVal = newVal * i
+
+newVal
+
+
+
+
+
+

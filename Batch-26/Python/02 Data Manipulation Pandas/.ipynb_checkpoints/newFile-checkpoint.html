@@ -1,0 +1,37 @@
+<h2 style="color:#2a9d8f; font-family:Candara, sans-serif; font-weight:bold; text-align:left; padding-bottom:5px; border-bottom:2px solid #264653; margin:0;"> 
+Simple Filtering
+</h2>
+
+<ul style="font-family:Candara, sans-serif; font-size:18px; line-height:1.6; padding-left:15px; margin:10px 0 0 0; list-style-type:none;">
+    <li style="color:#2a9d8f; margin-bottom:10px;">
+        <b>Column Filtering</b><br>
+        <p style="margin:0 0 0 20px;">Syntax: <code>df[['column1', 'column2']]</code></p>
+        <p style="margin:0 0 0 20px;">Example: <code>df[['FirstName', 'LastName']]</code></p>
+    </li>
+</ul>
+
+<ul style="font-family:Candara, sans-serif; font-size:18px; line-height:1.6; padding-left:15px; margin:10px 0 0 0; list-style-type:none;">
+    <li style="color:#2a9d8f; margin-bottom:10px;">
+        <b>Row Filtering (Slicing by Position)</b><br>
+        <p style="margin:0 0 0 20px;">Syntax: <code>df[startRow:endRow]</code></p>
+        <p style="margin:0 0 0 20px;">Example: <code>df[2:4]</code></p>
+    </li>
+</ul>
+
+<ul style="font-family:Candara, sans-serif; font-size:18px; line-height:1.6; padding-left:15px; margin:10px 0 0 0; list-style-type:none;">
+    <li style="color:#2a9d8f; margin-bottom:10px;">
+        <b>Row & Column Filtering</b>
+    </li>
+
+    <li style="color:#2a9d8f; margin-bottom:10px;">
+        <b>.loc (Label-Based Indexing)</b><br>
+        <p style="margin:0 0 0 20px;">Syntax: <code>df.loc[rowLabels, ['ColumnNames']]</code></p>
+        <p style="margin:0 0 0 20px;">Example: <code>df.loc[2:4, ['FirstName', 'LastName']]</code></p>
+    </li>
+
+    <li style="color:#2a9d8f; margin-bottom:10px;">
+        <b>.iloc (Integer-Position Indexing)</b><br>
+        <p style="margin:0 0 0 20px;">Syntax: <code>df.iloc[rowIndex, columnIndexNumbers]</code></p>
+        <p style="margin:0 0 0 20px;">Example: <code>df.iloc[2:4, 1:3]</code></p>
+    </li>
+</ul>

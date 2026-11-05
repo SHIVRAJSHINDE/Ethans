@@ -1,0 +1,14 @@
+First_name,Last_name,Age,City,Airline,Date_of_Journey,Arrival_Time,Full Name, Fare 
+Ram,Kumar,42,BANGALURU,IndiGo,24-03-2019 22:20,24-03-2019 23:30,Ram-Kumar,6930
+Mohan,Sharma,52,CHENNAI,Air India,01-05-2019 05:50,01-05-2019 19:05,Mohan-Sharma,4648
+Tina,Ali,36,Pune,Jet Airways,09-06-2019 09:25,09-06-2019 13:50,Tina-Ali,6958
+Jeetu,Gandhi,,Delhi,IndiGo,12-05-2019 18:05,13-05-2019 17:35,Jeetu-Gandhi,7237
+Meera,Kumari,,LUCKNOW,IndiGo,01-03-2019 16:50,02-03-2019 14:25,Meera-Kumari,7197
+Ram,Kumar,42,BANGALURU,,24-03-2019 22:20,24-03-2019 23:30,Ram-Kumar,6377
+Mohan,Sharma,52,CHENNAI,,01-05-2019 05:50,01-05-2019 19:05,Mohan-Sharma,6178
+Sanjay,Patil,43,,Jet Airways,12-03-2019 08:55,12-03-2019 19:20,Sanjay-Patil,4320
+Trishul,Shinde,45,Pune,Multiple carriers,27-05-2019 11:25,28-05-2019 06:40,Trishul-Shinde,5677
+Sameer,Patil,39,Delhi,Jet Airways,12-03-2019 10:25,13-03-2019 05:20,Sameer-Patil,4890
+Amol,Mahul,40,LUCKNOW,Jet Airways,01-03-2019 05:05,01-03-2019 13:05,Amol-Mahul,5507
+Praveen,Gurjar,47,BANGALURU,Jet Airways,12-03-2019 08:55,12-03-2019 19:20,Praveen-Gurjar,7650
+Sunita,Patil,40,CHENNAI,Multiple carriers,27-05-2019 11:25,28-05-2019 06:40,Sunita-Patil,6618
